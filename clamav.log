@@ -40,3 +40,19 @@ Data read: 1.61 MB (ratio 1.09:1)
 Time: 14.559 sec (0 m 14 s)
 Start Date: 2023:12:07 22:50:10
 End Date:   2023:12:07 22:50:24
+
+-------------------------------------------------------------------------------
+
+/home/roxy/Downloads/mal/malware.exe: Win.Malware.Zusy-10016302-0 FOUND
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8680154
+Engine version: 0.103.9
+Scanned directories: 1
+Scanned files: 2
+Infected files: 1
+Data scanned: 1.76 MB
+Data read: 1.61 MB (ratio 1.09:1)
+Time: 18.842 sec (0 m 18 s)
+Start Date: 2023:12:09 15:05:20
+End Date:   2023:12:09 15:05:39

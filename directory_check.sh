@@ -34,22 +34,3 @@ main() {
 }
 
 main
-
-# Define the mount point of the USB flash drive
-#mount_point="/media/roxy/B1D2-3CB5"
-
-# Define the device identifier of the USB flash drive
-device_identifier=$(df "$target_mount_point" | tail -n1 | awk '{print $1}')
-
-# Unmount the USB flash drive
-sudo umount "$device_identifier"
-
-# Format the USB flash drive with the FAT32 file system
-sudo mkfs.vfat "$device_identifier"
-
-# Check the exit status of the mkfs command
-if [ $? -eq 0 ]; then
- echo "Formatting successful."
-else
- echo "Formatting failed."
-fi
