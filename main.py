@@ -89,7 +89,7 @@ class StartPage(tk.Frame):
         button4.grid(row=21, column=8, padx=5, pady=10)
 
 
-        button4 = ttk.Button(self, text="Check USB Connection",
+        button4 = ttk.Button(self, text="Update",
                              command=lambda: controller.show_frame(System_Update))
 
         button4.grid(row=21, column=8, padx=5, pady=10)
@@ -244,21 +244,21 @@ class System_Update(tk.Frame):
         button2 = ttk.Button(self, text="Page 2",
                              command=lambda: controller.show_frame())
 
-        # putting the button in its place by
-        # using grid
-        button2.grid(row=3, column=2, padx=5, pady=10)
-
-        # button for VT scan option
-        button3 = ttk.Button(self, text="Page 3",
-                             command=lambda: controller.show_frame(VT_scan))
-
-        button3.grid(row=3, column=3, padx=5, pady=10)
-
-        # button for updating the system
-        button4 = ttk.Button(self, text="Page 4",
-                             command=lambda: controller.show_frame(VT_scan))
-
-        button4.grid(row=3, column=4, padx=5, pady=10)
+        # # putting the button in its place by
+        # # using grid
+        # button2.grid(row=3, column=2, padx=5, pady=10)
+        #
+        # # button for VT scan option
+        # button3 = ttk.Button(self, text="Page 3",
+        #                      command=lambda: controller.show_frame(VT_scan))
+        #
+        # button3.grid(row=3, column=3, padx=5, pady=10)
+        #
+        # # button for updating the system
+        # button4 = ttk.Button(self, text="Page 4",
+        #                      command=lambda: controller.show_frame(VT_scan))
+        #
+        # button4.grid(row=3, column=4, padx=5, pady=10)
 
 
 # Driver Code
