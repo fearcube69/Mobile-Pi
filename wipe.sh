@@ -42,10 +42,10 @@ main
 device_identifier=$(df "$target_mount_point" | tail -n1 | awk '{print $1}')
 
 # Unmount the USB flash drive
-sudo umount "$device_identifier"
+umount "$device_identifier"
 
 # Format the USB flash drive with the FAT32 file system
-sudo mkfs.vfat "$device_identifier"
+mkfs.vfat "$device_identifier"
 
 # Check the exit status of the mkfs command
 if [ $? -eq 0 ]; then

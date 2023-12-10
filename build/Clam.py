@@ -52,12 +52,60 @@ canvas.create_text(
     font=("Inter", 40 * -1)
 )
 
+button_image_1 = PhotoImage(
+    file=relative_to_assets("button_1.png"))
+button_1 = Button(
+    image=button_image_1,
+    borderwidth=0,
+    highlightthickness=0,
+    command=lambda: print("button_1 clicked"),
+    relief="flat"
+)
+button_1.place(
+    x=344.0,
+    y=600.0,
+    width=120.0,
+    height=80.0
+)
+
+button_image_2 = PhotoImage(
+    file=relative_to_assets("button_2.png"))
+button_2 = Button(
+    image=button_image_2,
+    borderwidth=0,
+    highlightthickness=0,
+    command=lambda: print("button_2 clicked"),
+    relief="flat"
+)
+button_2.place(
+    x=580.0,
+    y=600.0,
+    width=120.0,
+    height=80.0
+)
+
+button_image_3 = PhotoImage(
+    file=relative_to_assets("button_3.png"))
+button_3 = Button(
+    image=button_image_3,
+    borderwidth=0,
+    highlightthickness=0,
+    command=lambda: print("button_3 clicked"),
+    relief="flat"
+)
+button_3.place(
+    x=816.0,
+    y=600.0,
+    width=120.0,
+    height=80.0
+)
+
 canvas.create_rectangle(
-    177.0,
-    610.0,
-    295.0,
-    684.0,
-    fill="#000000",
+    344.0,
+    216.0,
+    920.0,
+    541.0,
+    fill="#B8E1EA",
     outline="")
 window.resizable(False, False)
 window.mainloop()

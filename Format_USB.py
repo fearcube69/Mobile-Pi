@@ -1,35 +1,55 @@
-#To fix :
-# Sudo part of the bash script
-
+import os
 import subprocess
-import tkinter as tk
-from tkinter import scrolledtext
 
-# Create the main window
-root = tk.Tk()
+def list_directories(base_path):
+    # List all directories under the specified base path
+    return [d for d in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, d))]
 
-# Define the function to run the bash script
-def run_bash_script():
- # Define the path of the bash script
- bash_script_path = "wipe.sh"
+def get_mounted_devices(target_mount_point):
+    try:
+        # Read the contents of /proc/self/mounts
+        with open('/proc/self/mounts', 'r') as mounts_file:
+            for line in mounts_file:
+                fields = line.split()
+                if len(fields) >= 2 and fields[1] == target_mount_point:
+                    # Print device, mount point, and file system type
+                    print(f"Device: {fields[0]}, Mount Point: {fields[1]}, File System Type: {fields[2]}")
+    except FileNotFoundError:
+        print("/proc/self/mounts not found. Are you running on a Linux system?")
 
- # Run the bash script and capture the output
- process = subprocess.Popen(["bash", bash_script_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
- output, error = process.communicate()
+def main():
+    # Specify the base path
+    base_path = '/media/roxy'
 
- # Display the output in the text widget
- output_text.insert(tk.END, output.decode('utf-8'))
+    # List all directories under /media/roxy
+    directory_names = list_directories(base_path)
 
-# Create a scrolled text widget to display the output
-output_text = scrolledtext.ScrolledText(root)
-output_text.pack()
+    # Print the names of the directories
+    for name in directory_names:
+        print(name)
 
-# Create a close button to close the window
-close_button = tk.Button(root, text="Close", command=root.destroy)
-close_button.pack()
+    # Get the last directory name (if any)
+    if directory_names:
+        target_mount_point = os.path.join(base_path, directory_names[-1])
+        print(f"\nTarget Mount Point: {target_mount_point}\n")
 
-# Run the bash script when the window is created
-run_bash_script()
+        # Call the get_mounted_devices function
+        get_mounted_devices(target_mount_point)
 
-# Run the Tkinter main loop
-root.mainloop()
+        # Define the device identifier of the USB flash drive
+        device_identifier = subprocess.check_output(['df', target_mount_point]).decode().split('\n')[-2].split()[0]
+
+        # Unmount the USB flash drive
+        subprocess.run(['sudo', 'umount', device_identifier])
+
+        # Format the USB flash drive with the FAT32 file system
+        subprocess.run(['sudo', 'mkfs.vfat', device_identifier])
+
+        # Check the exit status of the mkfs command
+        if subprocess.run(['sudo', 'mkfs.vfat', device_identifier]).returncode == 0:
+            print("Formatting successful.")
+        else:
+            print("Formatting failed.")
+
+if __name__ == "__main__":
+    main()

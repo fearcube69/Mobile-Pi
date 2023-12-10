@@ -11,7 +11,7 @@ from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"/home/roxy/PycharmProjects/Mobile-Pi/build/assets/frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"/home/roxy/PycharmProjects/Mobile-Pi/build/assets/frame3")
 
 
 def relative_to_assets(path: str) -> Path:
@@ -43,29 +43,45 @@ canvas.create_rectangle(
     fill="#4DBFFF",
     outline="")
 
-canvas.create_rectangle(
-    0.0,
-    0.0,
-    1280.0,
-    216.0,
-    fill="#4DBFFF",
-    outline="")
-
 canvas.create_text(
-    295.0,
+    300.0,
     100.0,
     anchor="nw",
-    text="Virus Total Scan have been Selected",
+    text="USB wipe mode have been selected",
     fill="#000000",
     font=("Inter", 40 * -1)
 )
 
-canvas.create_rectangle(
-    295.0,
-    570.0,
-    413.0,
-    644.0,
-    fill="#000000",
-    outline="")
+button_image_1 = PhotoImage(
+    file=relative_to_assets("button_1.png"))
+button_1 = Button(
+    image=button_image_1,
+    borderwidth=0,
+    highlightthickness=0,
+    command=lambda: print("button_1 clicked"),
+    relief="flat"
+)
+button_1.place(
+    x=472.0,
+    y=600.0,
+    width=120.0,
+    height=80.0
+)
+
+button_image_2 = PhotoImage(
+    file=relative_to_assets("button_2.png"))
+button_2 = Button(
+    image=button_image_2,
+    borderwidth=0,
+    highlightthickness=0,
+    command=lambda: print("button_2 clicked"),
+    relief="flat"
+)
+button_2.place(
+    x=687.0,
+    y=600.0,
+    width=120.0,
+    height=80.0
+)
 window.resizable(False, False)
 window.mainloop()
