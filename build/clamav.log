@@ -1,0 +1,16 @@
+
+-------------------------------------------------------------------------------
+
+/home/roxy/Downloads/mal/malware.exe: Win.Malware.Zusy-10016302-0 FOUND
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8680306
+Engine version: 0.103.9
+Scanned directories: 1
+Scanned files: 2
+Infected files: 1
+Data scanned: 1.76 MB
+Data read: 1.61 MB (ratio 1.09:1)
+Time: 20.942 sec (0 m 20 s)
+Start Date: 2023:12:10 22:10:36
+End Date:   2023:12:10 22:10:57

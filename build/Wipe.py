@@ -3,11 +3,8 @@
 
 
 from pathlib import Path
-
-# from tkinter import *
-# Explicit imports to satisfy Flake8
-from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 import subprocess
+from tkinter import Tk, Canvas, Button, PhotoImage, Text, END
 
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path(r"/home/roxy/PycharmProjects/Mobile-Pi/build/assets/frame3")
@@ -85,5 +82,16 @@ button_2.place(
     width=120.0,
     height=80.0
 )
+
+text_widget = Text(
+    window,
+    wrap="word",
+    font=("Inter", 12),
+    bg="#B8E1EA",
+    bd=0,
+    highlightthickness=0,
+    relief="flat"
+)
+
 window.resizable(False, False)
 window.mainloop()

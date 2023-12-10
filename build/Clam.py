@@ -1,16 +1,28 @@
 from pathlib import Path
 import subprocess
-from tkinter import Tk, Canvas, Button, PhotoImage
+from tkinter import Tk, Canvas, Button, PhotoImage, Text, END
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"/home/roxy/PycharmProjects/Mobile-Pi/build/assets/frame1")
+ASSETS_PATH = OUTPUT_PATH / "assets/frame1"  # Update the path accordingly
 
 def on_button_click(file_path):
     subprocess.run(["python3", file_path])
 
+def on_button_click2():
+    # Replace this with the actual path to your text file
+    text_file_path = "clamav.log"
+
+    with open(text_file_path, "r") as file:
+        text_content = file.read()
+
+    # Clear existing text in the Text widget
+    text_widget.delete(1.0, END)
+
+    # Insert new text into the Text widget
+    text_widget.insert(END, text_content)
+
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
-
 
 window = Tk()
 
@@ -41,7 +53,7 @@ canvas.create_text(
     295.0,
     100.0,
     anchor="nw",
-    text="Clam AV Scan have been Selected",
+    text="Clam AV Scan has been Selected",
     fill="#000000",
     font=("Inter", 40 * -1)
 )
@@ -52,7 +64,7 @@ button_1 = Button(
     image=button_image_1,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: on_button_click("/home/roxy/PycharmProjects/Mobile-Pi/build/Main.py"),  # Replace with the actual path to main.py
+    command=lambda: on_button_click("/home/roxy/PycharmProjects/Mobile-Pi/build/Main.py"),
     relief="flat"
 )
 button_1.place(
@@ -68,7 +80,7 @@ button_2 = Button(
     image=button_image_2,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: print("button_2 clicked"),
+    command=lambda: on_button_click("../ClamAV_scan.py"),
     relief="flat"
 )
 button_2.place(
@@ -84,7 +96,7 @@ button_3 = Button(
     image=button_image_3,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: print("button_3 clicked"),
+    command=lambda: on_button_click2(),
     relief="flat"
 )
 button_3.place(
@@ -94,14 +106,17 @@ button_3.place(
     height=80.0
 )
 
-canvas.create_rectangle(
-    344.0,
-    216.0,
-    920.0,
-    541.0,
-    fill="#B8E1EA",
-    outline=""
+# Create a Text widget to display the text
+text_widget = Text(
+    window,
+    wrap="word",
+    font=("Inter", 12),
+    bg="#B8E1EA",
+    bd=0,
+    highlightthickness=0,
+    relief="flat"
 )
+text_widget.place(x=344.0, y=216.0, width=576.0, height=325.0)
 
 window.resizable(False, False)
 window.mainloop()

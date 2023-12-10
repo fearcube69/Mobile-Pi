@@ -1,0 +1,11 @@
+
+Timestamp: 2023-12-10 23:02:15
+harmless: 0
+type-unsupported: 10
+suspicious: 0
+confirmed-timeout: 0
+timeout: 0
+failure: 2
+malicious: 48
+undetected: 16
+--------------------------------------------------
