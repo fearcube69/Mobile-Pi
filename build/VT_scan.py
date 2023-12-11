@@ -23,7 +23,7 @@ class VirusTotalScanner:
             self.status_label.config(text='Files selected')
 
             # Zip the selected files if size is less than 650MB
-            with zipfile.ZipFile('selected_files.zip', 'w') as zipf:
+            with zipfile.ZipFile('../selected_files.zip', 'w') as zipf:
                 for file in files:
                     file_size = os.path.getsize(file) / (1024 * 1024)  # Get file size in MB
                     if file_size < 650:
@@ -44,7 +44,7 @@ class VirusTotalScanner:
         url = 'https://www.virustotal.com/api/v3/files'
         headers = {'x-apikey': self.api_key}
 
-        with open('selected_files.zip', 'rb') as file:
+        with open('../selected_files.zip', 'rb') as file:
             files = {'file': file}
             response = requests.post(url, headers=headers, files=files)
 

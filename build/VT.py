@@ -2,6 +2,7 @@ from pathlib import Path
 import subprocess
 from tkinter import Tk, Canvas, Button, PhotoImage, Text, END
 import os
+import sys
 
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / "assets/frame0"  # Update the path accordingly
@@ -9,7 +10,7 @@ ASSETS_PATH = OUTPUT_PATH / "assets/frame0"  # Update the path accordingly
 
 def on_button_click(file_path):
     subprocess.run(["python3", file_path])
-
+    sys.exit()
 
 def on_button_click2():
     # Replace this with the actual path to your text file
@@ -104,7 +105,7 @@ button_2 = Button(
     image=button_image_2,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: on_button_click("../VT_scan.py"),
+    command=lambda: on_button_click("VT_scan.py"),
     relief="flat"
 )
 button_2.place(

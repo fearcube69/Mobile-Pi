@@ -4,7 +4,7 @@ import subprocess
 
 
 from pathlib import Path
-
+import sys
 # from tkinter import *
 # Explicit imports to satisfy Flake8
 from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
@@ -15,6 +15,7 @@ ASSETS_PATH = OUTPUT_PATH / Path(r"/home/roxy/PycharmProjects/Mobile-Pi/build/as
 
 def on_button_click(file_path):
     subprocess.run(["python3"], file_path)
+    sys.exit()
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 

@@ -11,6 +11,13 @@ class clam_scan():
         self.proc = None
 
     def scan_directory(self):
+        # Display "Scanning have been initiated" as the first output
+        output_window = tk.Toplevel(root)
+        output_window.title('Scan Summary')
+        output_text = scrolledtext.ScrolledText(output_window)
+        output_text.pack()
+        output_text.insert(tk.END, "Scanning have been initiated\n")
+
         # Set the directory path to /media/roxy
         # directory_path = '/media/roxy'
         directory_path = '/home/roxy/Downloads/mal'
@@ -23,12 +30,6 @@ class clam_scan():
                 self.proc = subprocess.Popen(['clamscan', '--recursive', '-l', 'clamav.log', directory_path],
                                              stdout=subprocess.PIPE,
                                              stderr=subprocess.STDOUT)
-
-                # Display the output in a new window
-                output_window = tk.Toplevel(root)
-                output_window.title('Scan Summary')
-                output_text = scrolledtext.ScrolledText(output_window)
-                output_text.pack()
 
                 # Create a new thread to read the output and display it in the window
                 threading.Thread(target=self.read_output, args=(output_text,)).start()
@@ -44,10 +45,10 @@ class clam_scan():
     def read_output(self, output_text):
         while True:
             output = self.proc.stdout.readline()
-            if output == '' and self.proc.poll() is not None:
+            if output == b'' and self.proc.poll() is not None:
                 break
             if output:
-                output_text.insert(tk.END, output)
+                output_text.insert(tk.END, output.decode('utf-8'))
                 output_text.see(tk.END)
 
     def close_window(self, window):
