@@ -9,7 +9,7 @@ ASSETS_PATH = OUTPUT_PATH / Path(r"assets/frame3")
 
 
 def on_button_click(file_path):
-    subprocess.run(["python3", file_path])
+    subprocess.Popen(["python3", file_path])
     sys.exit()
 
 def relative_to_assets(path: str) -> Path:
