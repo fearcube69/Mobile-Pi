@@ -41,7 +41,7 @@ else
 fi
 
 # Modify sudoers file (use with caution!)
-echo "$name_user ALL=(ALL:ALL) NOPASSWD: /path/to/your/script.sh" | sudo tee -a /etc/sudoers
+echo "$name_user ALL=(ALL:ALL)" | sudo tee -a /etc/sudoers
 
 # Display activation instructions
 echo "Virtual environment activated."
