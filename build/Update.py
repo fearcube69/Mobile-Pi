@@ -88,5 +88,18 @@ button_2.place(
     width=120.0,
     height=80.0
 )
+
+text_widget = Text(
+    window,
+    wrap="word",
+    font=("Inter", 12),
+    bg="#B8E1EA",
+    bd=0,
+    highlightthickness=0,
+    relief="flat"
+)
+text_widget.place(x=352.0, y=216.0, width=576.0, height=323.0)
+
+
 window.resizable(False, False)
 window.mainloop()

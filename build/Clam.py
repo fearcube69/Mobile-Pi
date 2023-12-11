@@ -1,17 +1,14 @@
+import os
 import sys
-from pathlib import Path
 import subprocess
-from tkinter import Tk, Canvas, Button, PhotoImage, Text, END
+from pathlib import Path
+from tkinter import Tk, Canvas, Button, PhotoImage, Text, END, messagebox
 
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / "assets/frame1"  # Update the path accordingly
 
 
-
 def on_button_click(file_path):
-
-
-
     subprocess.Popen(["python3", file_path])
     sys.exit()
 
@@ -34,19 +31,31 @@ def on_button_scan():
     with open(log_file_path, "a") as log_file:
         log_file.write(clamav_output.stdout)
 
+    # Check if any malicious files were found
+    if "Infected files: 0" not in clamav_output.stdout:
+        response = messagebox.askyesno("Malicious File Detected", "Malicious file detected! Do you want to delete it?")
+        if response:
+            # Extract the list of infected files from the clamav_output
+            infected_files = [line.split(':', 1)[0] for line in clamav_output.stdout.split('\n') if
+                              line.startswith('/')]
+
+            # Delete only the malicious file(s)
+            base_directory = os.getcwd()  # Use the current working directory as the base directory
+            for file_path in infected_files:
+                full_path = os.path.join(base_directory, file_path)
+                try:
+                    os.remove(full_path)
+                    text_widget.insert(END, f"Deleted: {full_path}\n")
+                except Exception as e:
+                    text_widget.insert(END, f"Error deleting {full_path}: {str(e)}\n")
+
+            messagebox.showinfo("Files Deleted", "Malicious file(s) have been deleted.")
+        else:
+            messagebox.showinfo("Files Not Deleted", "Malicious file(s) have not been deleted.")
+
 
 def on_button_log():
     # Replace this with the actual path to your text file
-    text_file_path = "clamav.log"
-
-    with open(text_file_path, "r") as file:
-        text_content = file.read()
-
-    # Clear existing text in the Text widget
-    text_widget.delete(1.0, END)
-
-    # Insert new text into the Text widget
-    text_widget.insert(END, text_content)  # Replace this with the actual path to your text file
     text_file_path = "clamav.log"
 
     with open(text_file_path, "r") as file:

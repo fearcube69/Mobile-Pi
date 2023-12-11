@@ -12,6 +12,7 @@ def on_button_click(file_path):
     subprocess.Popen(["python3", file_path])
     sys.exit()
 
+
 def on_button_click2():
     # Replace this with the actual path to your text file
     text_file_path = "scan_log.txt"

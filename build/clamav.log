@@ -26,3 +26,199 @@ Data read: 1.61 MB (ratio 1.09:1)
 Time: 13.985 sec (0 m 13 s)
 Start Date: 2023:12:11 12:34:23
 End Date:   2023:12:11 12:34:37
+/home/roxy/Downloads/mal/malware.exe: Win.Malware.Zusy-10016302-0 FOUND
+/home/roxy/Downloads/mal/ransomware.doc: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8680405
+Engine version: 0.103.9
+Scanned directories: 1
+Scanned files: 2
+Infected files: 1
+Data scanned: 1.76 MB
+Data read: 1.61 MB (ratio 1.09:1)
+Time: 15.485 sec (0 m 15 s)
+Start Date: 2023:12:11 22:13:13
+End Date:   2023:12:11 22:13:28
+/home/roxy/Downloads/mal/malware.exe: Win.Malware.Zusy-10016302-0 FOUND
+/home/roxy/Downloads/mal/ransomware.doc: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8680405
+Engine version: 0.103.9
+Scanned directories: 1
+Scanned files: 2
+Infected files: 1
+Data scanned: 1.76 MB
+Data read: 1.61 MB (ratio 1.09:1)
+Time: 14.166 sec (0 m 14 s)
+Start Date: 2023:12:11 22:14:03
+End Date:   2023:12:11 22:14:17
+/home/roxy/Downloads/mal/malware.exe: Win.Malware.Zusy-10016302-0 FOUND
+/home/roxy/Downloads/mal/ransomware.doc: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8680405
+Engine version: 0.103.9
+Scanned directories: 1
+Scanned files: 2
+Infected files: 1
+Data scanned: 1.76 MB
+Data read: 1.61 MB (ratio 1.09:1)
+Time: 14.221 sec (0 m 14 s)
+Start Date: 2023:12:11 22:21:20
+End Date:   2023:12:11 22:21:35
+/home/roxy/Downloads/mal/roxy_migurdia_wallpaper_by_dinocozero_dee5g0u-pre.jpg: OK
+/home/roxy/Downloads/mal/malware.exe: Win.Malware.Zusy-10016302-0 FOUND
+/home/roxy/Downloads/mal/Roxy.Migurdia.600.3971787.jpg: OK
+/home/roxy/Downloads/mal/desktop-wallpaper-roxy-migurdia-mushoku-tensei-jobless-reincarnation-1920×1080-dist.jpg: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8680405
+Engine version: 0.103.9
+Scanned directories: 1
+Scanned files: 4
+Infected files: 1
+Data scanned: 1.92 MB
+Data read: 1.82 MB (ratio 1.06:1)
+Time: 13.951 sec (0 m 13 s)
+Start Date: 2023:12:11 22:22:07
+End Date:   2023:12:11 22:22:21
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8680405
+Engine version: 0.103.9
+Scanned directories: 1
+Scanned files: 0
+Infected files: 0
+Data scanned: 0.00 MB
+Data read: 0.00 MB (ratio 0.00:1)
+Time: 12.214 sec (0 m 12 s)
+Start Date: 2023:12:11 22:24:09
+End Date:   2023:12:11 22:24:21
+/home/roxy/Downloads/mal/roxy_migurdia_wallpaper_by_dinocozero_dee5g0u-pre.jpg: OK
+/home/roxy/Downloads/mal/malware.exe: Win.Malware.Zusy-10016302-0 FOUND
+/home/roxy/Downloads/mal/mal.zip: OK
+/home/roxy/Downloads/mal/Roxy.Migurdia.600.3971787.jpg: OK
+/home/roxy/Downloads/mal/desktop-wallpaper-roxy-migurdia-mushoku-tensei-jobless-reincarnation-1920×1080-dist.jpg: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8680405
+Engine version: 0.103.9
+Scanned directories: 1
+Scanned files: 5
+Infected files: 1
+Data scanned: 2.71 MB
+Data read: 2.56 MB (ratio 1.06:1)
+Time: 14.517 sec (0 m 14 s)
+Start Date: 2023:12:11 22:25:03
+End Date:   2023:12:11 22:25:18
+/home/roxy/Downloads/mal/roxy_migurdia_wallpaper_by_dinocozero_dee5g0u-pre.jpg: OK
+/home/roxy/Downloads/mal/f02f88d748e39dfa692b811ab1c0f9179045170bc179bd46190d57885078a97c.zip: OK
+/home/roxy/Downloads/mal/firefox.tmp/tmpaddon: OK
+/home/roxy/Downloads/mal/malware.exe: Win.Malware.Zusy-10016302-0 FOUND
+/home/roxy/Downloads/mal/07c44729e2c570b37db695323249474831f5861d45318bf49ccf5d2f5c8ea1cd.zip: OK
+/home/roxy/Downloads/mal/mal.zip: OK
+/home/roxy/Downloads/mal/desktop-wallpaper-roxy-migurdia-mushoku-tensei-jobless-reincarnation-1920×1080-dist.jpg: OK
+/home/roxy/Downloads/mal/1320348.jpeg: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8680405
+Engine version: 0.103.9
+Scanned directories: 3
+Scanned files: 8
+Infected files: 1
+Data scanned: 17.91 MB
+Data read: 15.52 MB (ratio 1.15:1)
+Time: 17.568 sec (0 m 17 s)
+Start Date: 2023:12:11 22:26:10
+End Date:   2023:12:11 22:26:28
+/home/roxy/Downloads/mal/roxy_migurdia_wallpaper_by_dinocozero_dee5g0u-pre.jpg: OK
+/home/roxy/Downloads/mal/f02f88d748e39dfa692b811ab1c0f9179045170bc179bd46190d57885078a97c.zip: OK
+/home/roxy/Downloads/mal/firefox.tmp/tmpaddon: OK
+/home/roxy/Downloads/mal/malware.exe: Win.Malware.Zusy-10016302-0 FOUND
+/home/roxy/Downloads/mal/07c44729e2c570b37db695323249474831f5861d45318bf49ccf5d2f5c8ea1cd.zip: OK
+/home/roxy/Downloads/mal/mal.zip: OK
+/home/roxy/Downloads/mal/desktop-wallpaper-roxy-migurdia-mushoku-tensei-jobless-reincarnation-1920×1080-dist.jpg: OK
+/home/roxy/Downloads/mal/1320348.jpeg: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8680405
+Engine version: 0.103.9
+Scanned directories: 4
+Scanned files: 8
+Infected files: 1
+Data scanned: 17.91 MB
+Data read: 15.52 MB (ratio 1.15:1)
+Time: 19.476 sec (0 m 19 s)
+Start Date: 2023:12:11 22:28:21
+End Date:   2023:12:11 22:28:41
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8680405
+Engine version: 0.103.9
+Scanned directories: 4
+Scanned files: 0
+Infected files: 0
+Data scanned: 0.00 MB
+Data read: 0.00 MB (ratio 0.00:1)
+Time: 12.351 sec (0 m 12 s)
+Start Date: 2023:12:11 22:32:01
+End Date:   2023:12:11 22:32:13
+/home/roxy/Downloads/mal/f02f88d748e39dfa692b811ab1c0f9179045170bc179bd46190d57885078a97c.zip: OK
+/home/roxy/Downloads/mal/malware.exe: Win.Malware.Zusy-10016302-0 FOUND
+/home/roxy/Downloads/mal/07c44729e2c570b37db695323249474831f5861d45318bf49ccf5d2f5c8ea1cd.zip: OK
+/home/roxy/Downloads/mal/mal.zip: OK
+/home/roxy/Downloads/mal/desktop-wallpaper-roxy-migurdia-mushoku-tensei-jobless-reincarnation-1920×1080-dist.jpg: OK
+/home/roxy/Downloads/mal/1320348.jpeg: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8680405
+Engine version: 0.103.9
+Scanned directories: 4
+Scanned files: 6
+Infected files: 1
+Data scanned: 15.84 MB
+Data read: 14.89 MB (ratio 1.06:1)
+Time: 17.016 sec (0 m 17 s)
+Start Date: 2023:12:11 22:32:19
+End Date:   2023:12:11 22:32:36
+/home/roxy/Downloads/mal/f02f88d748e39dfa692b811ab1c0f9179045170bc179bd46190d57885078a97c.zip: OK
+/home/roxy/Downloads/mal/firefox.tmp/roxy_migurdia_wallpaper_by_dinocozero_dee5g0u-pre.jpg: OK
+/home/roxy/Downloads/mal/firefox.tmp/Roxy.Migurdia.600.3971787.jpg: OK
+/home/roxy/Downloads/mal/firefox.tmp/desktop-wallpaper-roxy-migurdia-mushoku-tensei-jobless-reincarnation-1920×1080-dist.jpg: OK
+/home/roxy/Downloads/mal/malware.exe: Win.Malware.Zusy-10016302-0 FOUND
+/home/roxy/Downloads/mal/07c44729e2c570b37db695323249474831f5861d45318bf49ccf5d2f5c8ea1cd.zip: OK
+/home/roxy/Downloads/mal/mal.zip: OK
+/home/roxy/Downloads/mal/desktop-wallpaper-roxy-migurdia-mushoku-tensei-jobless-reincarnation-1920×1080-dist.jpg: OK
+/home/roxy/Downloads/mal/1320348.jpeg: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8680405
+Engine version: 0.103.9
+Scanned directories: 4
+Scanned files: 9
+Infected files: 1
+Data scanned: 16.03 MB
+Data read: 15.13 MB (ratio 1.06:1)
+Time: 16.973 sec (0 m 16 s)
+Start Date: 2023:12:11 22:34:06
+End Date:   2023:12:11 22:34:23
+/home/roxy/Downloads/mal/f02f88d748e39dfa692b811ab1c0f9179045170bc179bd46190d57885078a97c.zip: OK
+/home/roxy/Downloads/mal/malware.exe: Win.Malware.Zusy-10016302-0 FOUND
+/home/roxy/Downloads/mal/07c44729e2c570b37db695323249474831f5861d45318bf49ccf5d2f5c8ea1cd.zip: OK
+/home/roxy/Downloads/mal/mal.zip: OK
+/home/roxy/Downloads/mal/desktop-wallpaper-roxy-migurdia-mushoku-tensei-jobless-reincarnation-1920×1080-dist.jpg: OK
+/home/roxy/Downloads/mal/1320348.jpeg: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8680405
+Engine version: 0.103.9
+Scanned directories: 4
+Scanned files: 6
+Infected files: 1
+Data scanned: 15.84 MB
+Data read: 14.89 MB (ratio 1.06:1)
+Time: 16.943 sec (0 m 16 s)
+Start Date: 2023:12:11 22:37:43
+End Date:   2023:12:11 22:38:00

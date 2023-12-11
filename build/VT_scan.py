@@ -6,6 +6,7 @@ from tkinter import filedialog, messagebox, scrolledtext
 import threading
 from datetime import datetime
 
+
 class VirusTotalScanner:
 
     def __init__(self, root):
@@ -17,13 +18,13 @@ class VirusTotalScanner:
 
     def open_file_dialog(self):
         files = filedialog.askopenfilenames(initialdir='', title='Select Files',
-                                             filetypes=(('All Files', '*.*'), ('Text Files', '*.txt')))
+                                            filetypes=(('All Files', '*.*'), ('Text Files', '*.txt')))
 
         if files:
             self.status_label.config(text='Files selected')
 
             # Zip the selected files if size is less than 650MB
-            with zipfile.ZipFile('../selected_files.zip', 'w') as zipf:
+            with zipfile.ZipFile('../unused/selected_files.zip', 'w') as zipf:
                 for file in files:
                     file_size = os.path.getsize(file) / (1024 * 1024)  # Get file size in MB
                     if file_size < 650:
@@ -44,7 +45,7 @@ class VirusTotalScanner:
         url = 'https://www.virustotal.com/api/v3/files'
         headers = {'x-apikey': self.api_key}
 
-        with open('../selected_files.zip', 'rb') as file:
+        with open('../unused/selected_files.zip', 'rb') as file:
             files = {'file': file}
             response = requests.post(url, headers=headers, files=files)
 
