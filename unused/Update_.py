@@ -9,14 +9,15 @@ import sys
 # Explicit imports to satisfy Flake8
 from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 
-
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"assets/frame2")
+ASSETS_PATH = OUTPUT_PATH / Path(r"../build/assets/frame2")
 
 
 def on_button_click(file_path):
     subprocess.Popen(["python3", file_path])
     sys.exit()
+
+
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 
@@ -24,20 +25,19 @@ def relative_to_assets(path: str) -> Path:
 window = Tk()
 
 window.geometry("1280x720")
-window.configure(bg = "#FFFFFF")
-
+window.configure(bg="#FFFFFF")
 
 canvas = Canvas(
     window,
-    bg = "#FFFFFF",
-    height = 720,
-    width = 1280,
-    bd = 0,
-    highlightthickness = 0,
-    relief = "ridge"
+    bg="#FFFFFF",
+    height=720,
+    width=1280,
+    bd=0,
+    highlightthickness=0,
+    relief="ridge"
 )
 
-canvas.place(x = 0, y = 0)
+canvas.place(x=0, y=0)
 canvas.create_rectangle(
     0.0,
     0.0,
@@ -55,14 +55,14 @@ canvas.create_text(
     font=("Inter", 40 * -1)
 )
 
-#Return to main menu
+# Return to main menu
 button_image_1 = PhotoImage(
     file=relative_to_assets("button_1.png"))
 button_1 = Button(
     image=button_image_1,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: on_button_click("Main.py"),
+    command=lambda: on_button_click("../build/Main.py"),
     relief="flat"
 )
 button_1.place(
@@ -72,7 +72,7 @@ button_1.place(
     height=80.0
 )
 
-#Update button
+# Update button
 button_image_2 = PhotoImage(
     file=relative_to_assets("button_2.png"))
 button_2 = Button(
@@ -99,7 +99,6 @@ text_widget = Text(
     relief="flat"
 )
 text_widget.place(x=352.0, y=216.0, width=576.0, height=323.0)
-
 
 window.resizable(False, False)
 window.mainloop()

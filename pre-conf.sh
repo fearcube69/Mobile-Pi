@@ -46,3 +46,23 @@ echo "$name_user ALL=(ALL:ALL)" | sudo tee -a /etc/sudoers
 # Display activation instructions
 echo "Virtual environment activated."
 echo "To deactivate the virtual environment, run: deactivate"
+
+# Install ClamAV and configure
+sudo apt update
+sudo apt install clamav clamav-daemon -y
+sudo systemctl enable clamav-daemon
+sudo freshclam
+sudo /etc/init.d/clamav-freshclam stop
+sudo freshclam
+sudo /etc/init.d/clamav-freshclam start
+echo -e "[Service]\nExecStartPre=/bin/mkdir -p /run/clamav" | sudo tee /etc/systemd/system/clamav-daemon.service.d/extend.conf
+sudo systemctl daemon-reload
+sudo service clamav-daemon start
+echo -e "#!/bin/sh\n/etc/init.d/clamav-freshclam stop\n/usr/bin/freshclam -v >> /var/log/clamav/freshclam.log\n/etc/init.d/clamav-freshclam start" | sudo tee /etc/cron.daily/freshclam
+sudo chmod +x /etc/cron.daily/freshclam
+
+# Reload systemd to apply changes
+sudo systemctl daemon-reload
+
+# Display completion message
+echo "ClamAV installation and configuration completed."

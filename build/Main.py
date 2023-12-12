@@ -110,7 +110,7 @@ button_3.place(
 #     image=button_image_4,
 #     borderwidth=0,
 #     highlightthickness=0,
-#     command=lambda: on_button_click("Update.py"),
+#     command=lambda: on_button_click("Update_.py"),
 #     relief="flat"
 # )
 # button_4.place(
