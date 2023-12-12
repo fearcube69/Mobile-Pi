@@ -10,7 +10,7 @@ from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 import subprocess
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"/home/roxy/PycharmProjects/Mobile-Pi/build/assets/frame4")
+ASSETS_PATH = OUTPUT_PATH / Path(r"assets/frame4")
 
 
 def on_button_click(file_path):
@@ -49,7 +49,7 @@ button_1 = Button(
     relief="flat"
 )
 button_1.place(
-    x=145.0,
+    x=289,
     y=600.0,
     width=120.0,
     height=80.0
@@ -65,7 +65,7 @@ button_2 = Button(
     relief="flat"
 )
 button_2.place(
-    x=667.0,
+    x=871.0,
     y=600.0,
     width=120.0,
     height=80.0
@@ -98,26 +98,26 @@ button_3 = Button(
     relief="flat"
 )
 button_3.place(
-    x=406.0,
+    x=580.0,
     y=600.0,
     width=120.0,
     height=80.0
 )
 
-button_image_4 = PhotoImage(
-    file=relative_to_assets("button_4.png"))
-button_4 = Button(
-    image=button_image_4,
-    borderwidth=0,
-    highlightthickness=0,
-    command=lambda: on_button_click("Update.py"),
-    relief="flat"
-)
-button_4.place(
-    x=928.0,
-    y=600.0,
-    width=120.0,
-    height=80.0
-)
+# button_image_4 = PhotoImage(
+#     file=relative_to_assets("button_4.png"))
+# button_4 = Button(
+#     image=button_image_4,
+#     borderwidth=0,
+#     highlightthickness=0,
+#     command=lambda: on_button_click("Update.py"),
+#     relief="flat"
+# )
+# button_4.place(
+#     x=928.0,
+#     y=600.0,
+#     width=120.0,
+#     height=80.0
+# )
 window.resizable(False, False)
 window.mainloop()

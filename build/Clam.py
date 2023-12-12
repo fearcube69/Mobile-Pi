@@ -12,10 +12,17 @@ def on_button_click(file_path):
     subprocess.Popen(["python3", file_path])
     sys.exit()
 
+def get_media_path(username):
+    # Assuming media directory is inside the user's home directory
+    home_dir = os.path.expanduser("~")
+    media_path = os.path.join(home_dir, "media", username)
+    return media_path
 
 def on_button_scan():
     # Specify the path to the clamav.log file
     log_file_path = "clamav.log"
+
+
 
     # Display initial message
     text_widget.insert(END, "Scanning has been initiated...\n")
@@ -23,6 +30,7 @@ def on_button_scan():
 
     # Run ClamAV scan and capture the output
     clamav_output = subprocess.run(["clamscan", "-r", "/home/roxy/Downloads/mal"], capture_output=True, text=True)
+    # clamav_output = subprocess.run(["clamscan", "-r", "/home/mopi"], capture_output=True, text=True)
 
     # Display the scan output in the Text widget
     text_widget.insert(END, clamav_output.stdout)
@@ -32,26 +40,28 @@ def on_button_scan():
         log_file.write(clamav_output.stdout)
 
     # Check if any malicious files were found
-    if "Infected files: 0" not in clamav_output.stdout:
-        response = messagebox.askyesno("Malicious File Detected", "Malicious file detected! Do you want to delete it?")
-        if response:
-            # Extract the list of infected files from the clamav_output
-            infected_files = [line.split(':', 1)[0] for line in clamav_output.stdout.split('\n') if
-                              line.startswith('/')]
+    #--------Not enabled due to recursive deletion by clamAV-----
 
-            # Delete only the malicious file(s)
-            base_directory = os.getcwd()  # Use the current working directory as the base directory
-            for file_path in infected_files:
-                full_path = os.path.join(base_directory, file_path)
-                try:
-                    os.remove(full_path)
-                    text_widget.insert(END, f"Deleted: {full_path}\n")
-                except Exception as e:
-                    text_widget.insert(END, f"Error deleting {full_path}: {str(e)}\n")
-
-            messagebox.showinfo("Files Deleted", "Malicious file(s) have been deleted.")
-        else:
-            messagebox.showinfo("Files Not Deleted", "Malicious file(s) have not been deleted.")
+    # if "Infected files: 0" not in clamav_output.stdout:
+    #     response = messagebox.askyesno("Malicious File Detected", "Malicious file detected! Do you want to delete it?")
+    #     if response:
+    #         # Extract the list of infected files from the clamav_output
+    #         infected_files = [line.split(':', 1)[0] for line in clamav_output.stdout.split('\n') if
+    #                           line.startswith('/')]
+    #
+    #         # Delete only the malicious file(s)
+    #         base_directory = os.getcwd()  # Use the current working directory as the base directory
+    #         for file_path in infected_files:
+    #             full_path = os.path.join(base_directory, file_path)
+    #             try:
+    #                 os.remove(full_path)
+    #                 text_widget.insert(END, f"Deleted: {full_path}\n")
+    #             except Exception as e:
+    #                 text_widget.insert(END, f"Error deleting {full_path}: {str(e)}\n")
+    #
+    #         messagebox.showinfo("Files Deleted", "Malicious file(s) have been deleted.")
+    #     else:
+    #         messagebox.showinfo("Files Not Deleted", "Malicious file(s) have not been deleted.")
 
 
 def on_button_log():
