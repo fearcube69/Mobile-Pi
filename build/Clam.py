@@ -12,17 +12,17 @@ def on_button_click(file_path):
     subprocess.Popen(["python3", file_path])
     sys.exit()
 
+
 def get_media_path(username):
     # Assuming media directory is inside the user's home directory
     home_dir = os.path.expanduser("~")
     media_path = os.path.join(home_dir, "media", username)
     return media_path
 
+
 def on_button_scan():
     # Specify the path to the clamav.log file
     log_file_path = "clamav.log"
-
-
 
     # Display initial message
     text_widget.insert(END, "Scanning has been initiated...\n")
@@ -40,7 +40,7 @@ def on_button_scan():
         log_file.write(clamav_output.stdout)
 
     # Check if any malicious files were found
-    #--------Not enabled due to recursive deletion by clamAV-----
+    # --------Not enabled due to recursive deletion by clamAV-----
 
     # if "Infected files: 0" not in clamav_output.stdout:
     #     response = messagebox.askyesno("Malicious File Detected", "Malicious file detected! Do you want to delete it?")
