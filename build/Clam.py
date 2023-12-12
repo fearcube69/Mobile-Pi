@@ -83,15 +83,15 @@ def relative_to_assets(path: str) -> Path:
 
 
 window = Tk()
-
-window.geometry("1280x720")
+# Adjusted window geometry for a 1024x600 screen
+window.geometry("1024x600")
 window.configure(bg="#FFFFFF")
 
 canvas = Canvas(
     window,
     bg="#FFFFFF",
-    height=720,
-    width=1280,
+    height=600,
+    width=1024,
     bd=0,
     highlightthickness=0,
     relief="ridge"
@@ -101,7 +101,7 @@ canvas.place(x=0, y=0)
 canvas.create_rectangle(
     0.0,
     0.0,
-    1280.0,
+    1024.0,
     216.0,
     fill="#4DBFFF",
     outline=""
@@ -113,9 +113,10 @@ canvas.create_text(
     anchor="nw",
     text="Clam AV Scan has been Selected",
     fill="#000000",
-    font=("Inter", 40 * -1)
+    font=("Inter", 30 * -1)  # Adjusted font size
 )
 
+# Adjusted button placements for a 1024x600 screen
 button_image_1 = PhotoImage(
     file=relative_to_assets("button_1.png"))
 button_1 = Button(
@@ -126,8 +127,8 @@ button_1 = Button(
     relief="flat"
 )
 button_1.place(
-    x=344.0,
-    y=600.0,
+    x=244.0,
+    y=450.0,
     width=120.0,
     height=80.0
 )
@@ -142,8 +143,8 @@ button_2 = Button(
     relief="flat"
 )
 button_2.place(
-    x=580.0,
-    y=600.0,
+    x=404.0,
+    y=450.0,
     width=120.0,
     height=80.0
 )
@@ -158,8 +159,8 @@ button_3 = Button(
     relief="flat"
 )
 button_3.place(
-    x=816.0,
-    y=600.0,
+    x=564.0,
+    y=450.0,
     width=120.0,
     height=80.0
 )
@@ -174,7 +175,7 @@ text_widget = Text(
     highlightthickness=0,
     relief="flat"
 )
-text_widget.place(x=344.0, y=216.0, width=576.0, height=325.0)
+text_widget.place(x=244.0, y=216.0, width=536.0, height=225.0)  # Adjusted Text widget size
 
 window.resizable(False, False)
 window.mainloop()
