@@ -84,6 +84,7 @@ def relative_to_assets(path: str) -> Path:
 
 window = Tk()
 # Adjusted window geometry for a 1024x600 screen
+# Adjusted window geometry for a 1024x600 screen
 window.geometry("1024x600")
 window.configure(bg="#FFFFFF")
 

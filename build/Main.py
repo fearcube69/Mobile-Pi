@@ -20,94 +20,102 @@ def relative_to_assets(path: str) -> Path:
 
 window = Tk()
 
-# Set the window size for 1024x600
 window.geometry("1024x600")
 window.configure(bg="#FFFFFF")
 
 canvas = Canvas(
     window,
     bg="#FFFFFF",
-    height=600,  # Adjusted height for the smaller screen
-    width=1024,  # Adjusted width for the smaller screen
+    height=600,
+    width=1024,
     bd=0,
     highlightthickness=0,
     relief="ridge"
 )
-canvas.place(x=0, y=0)
 
-# Use adjusted coordinates and dimensions for the rectangles and text
+canvas.place(x=0, y=0)
+button_image_1 = PhotoImage(
+    file=relative_to_assets("button_1.png"))
+button_1 = Button(
+    image=button_image_1,
+    borderwidth=0,
+    highlightthickness=0,
+    command=lambda: on_button_click("Wipe.py"),
+    relief="flat"
+)
+button_1.place(
+    x=164,
+    y=400,
+    width=120.0,
+    height=80.0
+)
+
+button_image_2 = PhotoImage(
+    file=relative_to_assets("button_2.png"))
+button_2 = Button(
+    image=button_image_2,
+    borderwidth=0,
+    highlightthickness=0,
+    command=lambda: on_button_click("VT.py"),
+    relief="flat"
+)
+button_2.place(
+    x=740,
+    y=400,
+    width=120.0,
+    height=80.0
+)
+
 canvas.create_rectangle(
     0.0,
     0.0,
     1024.0,
-    150.0,  # Adjusted height for the smaller screen
+    144.0,
     fill="#4DBFFF",
     outline=""
 )
 
 canvas.create_text(
-    200.0,  # Adjusted x-coordinate
-    75.0,  # Adjusted y-coordinate
+    274.0,
+    50.0,
     anchor="nw",
-    text="Virus Total Scan has been Selected",
+    text="Welcome To Mobile Pi Scanner",
     fill="#000000",
-    font=("Inter", 20)  # Adjusted font size
+    font=("Inter", 30 * -1)
 )
 
-# Adjusted button positions and sizes
-button_1 = PhotoImage(file=relative_to_assets("button_1.png"))
-Button(
-    image=button_1,
+button_image_3 = PhotoImage(
+    file=relative_to_assets("button_3.png"))
+button_3 = Button(
+    image=button_image_3,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: on_button_click("Main.py"),
+    command=lambda: on_button_click("Clam.py"),
     relief="flat"
-).place(
-    x=200.0,
-    y=450.0,  # Adjusted y-coordinate
-    width=100.0,
-    height=60.0
+)
+button_3.place(
+    x=452,
+    y=400,
+    width=120.0,
+    height=80.0
 )
 
-button_2 = PhotoImage(file=relative_to_assets("button_2.png"))
-Button(
-    image=button_2,
-    borderwidth=0,
-    highlightthickness=0,
-    command=lambda: on_button_click("VT_scan.py"),
-    relief="flat"
-).place(
-    x=400.0,
-    y=450.0,  # Adjusted y-coordinate
-    width=100.0,
-    height=60.0
-)
-
-button_3 = PhotoImage(file=relative_to_assets("button_3.png"))
-Button(
-    image=button_3,
-    borderwidth=0,
-    highlightthickness=0,
-    command=lambda: on_button_click2(),
-    relief="flat"
-).place(
-    x=600.0,
-    y=450.0,  # Adjusted y-coordinate
-    width=100.0,
-    height=60.0
-)
-
-# Adjusted entry and text widget positions and sizes
-text_widget = Text(
-    window,
-    wrap="word",
-    font=("Inter", 12),
-    bg="#B8E1EA",
-    bd=0,
-    highlightthickness=0,
-    relief="flat"
-)
-text_widget.place(x=200.0, y=150.0, width=600.0, height=250.0)
+# Commented out the fourth button to fit within the screen size
+# button_image_4 = PhotoImage(
+#     file=relative_to_assets("button_4.png"))
+# button_4 = Button(
+#     image=button_image_4,
+#     borderwidth=0,
+#     highlightthickness=0,
+#     command=lambda: on_button_click("Update_.py"),
+#     relief="flat"
+# )
+# button_4.place(
+#     x=740.0,
+#     y=400.0,
+#     width=120.0,
+#     height=80.0
+# )
 
 window.resizable(False, False)
 window.mainloop()
