@@ -1,103 +1,135 @@
 from pathlib import Path
 import subprocess
 from tkinter import Tk, Canvas, Button, PhotoImage, Text, END
+import os
+import sys
 
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / "assets/frame0"  # Update the path accordingly
 
+
 def on_button_click(file_path):
     subprocess.Popen(["python3", file_path])
+    sys.exit()
+
 
 def on_button_click2():
+    # Replace this with the actual path to your text file
     text_file_path = "scan_log.txt"
+
     with open(text_file_path, "r") as file:
         text_content = file.read()
+
+    # Clear existing text in the Text widget
     text_widget.delete(1.0, END)
+
+    # Insert new text into the Text widget
     text_widget.insert(END, text_content)
+
+
+# def on_button_scan():
+#     # Replace this with the actual path to your text file
+#     text_file_path = "../VT_scan.py"
+#
+#     with open(text_file_path, "r") as file:
+#         text_content = file.read()
+
 
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 
-window = Tk()
 
-# Set the window size for 1024x600
+# Create the main window
+window = Tk()
 window.geometry("1024x600")
 window.configure(bg="#FFFFFF")
 
 canvas = Canvas(
     window,
     bg="#FFFFFF",
-    height=600,  # Adjusted height for the smaller screen
-    width=1024,  # Adjusted width for the smaller screen
+    height=600,
+    width=1024,
     bd=0,
     highlightthickness=0,
     relief="ridge"
 )
 canvas.place(x=0, y=0)
-
-# Use adjusted coordinates and dimensions for the rectangles and text
 canvas.create_rectangle(
     0.0,
     0.0,
     1024.0,
-    150.0,  # Adjusted height for the smaller screen
+    216.0,
     fill="#4DBFFF",
     outline=""
 )
 
 canvas.create_text(
-    200.0,  # Adjusted x-coordinate
-    75.0,  # Adjusted y-coordinate
+    212.0,
+    100.0,
     anchor="nw",
     text="Virus Total Scan has been Selected",
     fill="#000000",
-    font=("Inter", 20)  # Adjusted font size
+    font=("Inter", 30)
 )
 
-# Adjusted button positions and sizes
-button_1 = PhotoImage(file=relative_to_assets("button_1.png"))
-Button(
-    image=button_1,
+# Return to the main menu button
+button_image_1 = PhotoImage(
+    file=relative_to_assets("button_1.png"))
+button_1 = Button(
+    image=button_image_1,
     borderwidth=0,
     highlightthickness=0,
     command=lambda: on_button_click("Main.py"),
     relief="flat"
-).place(
-    x=200.0,
-    y=450.0,  # Adjusted y-coordinate
+)
+button_1.place(
+    x=252.0,
+    y=500.0,
     width=120.0,
     height=80.0
 )
 
-button_2 = PhotoImage(file=relative_to_assets("button_2.png"))
-Button(
-    image=button_2,
+# Scan button
+button_image_2 = PhotoImage(
+    file=relative_to_assets("button_2.png"))
+button_2 = Button(
+    image=button_image_2,
     borderwidth=0,
     highlightthickness=0,
     command=lambda: on_button_click("VT_scan.py"),
     relief="flat"
-).place(
-    x=400.0,
-    y=450.0,  # Adjusted y-coordinate
+)
+button_2.place(
+    x=452.0,
+    y=500.0,
     width=120.0,
     height=80.0
 )
 
-button_3 = PhotoImage(file=relative_to_assets("button_3.png"))
-Button(
-    image=button_3,
+# View scan history button
+button_image_3 = PhotoImage(
+    file=relative_to_assets("button_3.png"))
+button_3 = Button(
+    image=button_image_3,
     borderwidth=0,
     highlightthickness=0,
     command=lambda: on_button_click2(),
     relief="flat"
-).place(
-    x=600.0,
-    y=450.0,  # Adjusted y-coordinate
+)
+button_3.place(
+    x=652.0,
+    y=500.0,
     width=120.0,
     height=80.0
 )
 
-# Adjusted entry and text widget positions and sizes
+entry_image_1 = PhotoImage(
+    file=relative_to_assets("entry_1.png"))
+entry_bg_1 = canvas.create_image(
+    512.0,
+    308.5,
+    image=entry_image_1
+)
 text_widget = Text(
     window,
     wrap="word",
@@ -107,7 +139,7 @@ text_widget = Text(
     highlightthickness=0,
     relief="flat"
 )
-text_widget.place(x=200.0, y=150.0, width=600.0, height=250.0)
+text_widget.place(x=252.0, y=316.0, width=520.0, height=183.0)
 
 window.resizable(False, False)
 window.mainloop()
