@@ -13,30 +13,26 @@ def on_button_click(file_path):
     subprocess.Popen(["python3", file_path])
     sys.exit()
 
-def on_button_wipe():
-    script_path = "wipe.sh"  # Replace with the actual path to your shell script
-#    password = get_password()
-#    if password and check_password(password):
-#
-#
-#
-#         try:
-#             result = subprocess.check_output(["bash", script_path], universal_newlines=True)
-#             text_widget.insert(END, result)  # Use END to insert the result at the end of the Text widget
-#         except subprocess.CalledProcessError as e:
-#             text_widget.insert(END, f"Error: {e.output}")
-#     else:
-#         text_widget.insert(END, "Incorrect password or no password entered.\n")
-#
-# def get_password():
-#     password = simpledialog.askstring("Password", "Enter password:")
-#     return password
-#
-# def check_password(password):
-#     # Add your logic to check the password, e.g., compare it with a stored password
-#     stored_password = "your_stored_password"
-#     return password.strip() == stored_password
 
+def on_button_click3(file_path):
+    try:
+        result = subprocess.check_output(["bash", file_path], universal_newlines=True)
+        text_widget.delete(1.0, END)  # Clear existing content in the Text widget
+        text_widget.insert(END, result)  # Use END to insert the result at the end of the Text widget
+    except subprocess.CalledProcessError as e:
+        text_widget.delete(1.0, END)  # Clear existing content in the Text widget
+        text_widget.insert(END, f"Error: {e.output}")
+
+
+def get_password():
+    password = simpledialog.askstring("Password", "Enter password:")
+    return password
+
+
+def check_password(password):
+    # Add your logic to check the password, e.g., compare it with a stored password
+    stored_password = "your_stored_password"
+    return password.strip() == stored_password
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 
@@ -97,7 +93,7 @@ button_2 = Button(
     image=button_image_2,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: on_button_wipe(),
+    command=lambda: on_button_click3("wipe.sh"),
     relief="flat"
 )
 button_2.place(
