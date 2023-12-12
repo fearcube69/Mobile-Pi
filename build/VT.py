@@ -26,6 +26,9 @@ def on_button_click2():
     # Insert new text into the Text widget
     text_widget.insert(END, text_content)
 
+def on_button_click3(file_path):
+    subprocess.Popen(["python3", file_path])
+
 
 # def on_button_scan():
 #     # Replace this with the actual path to your text file
@@ -39,8 +42,115 @@ def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 
 
-# Create the main window
+# # Create the main window
+# window = Tk()
+# window.geometry("1024x600")
+# window.configure(bg="#FFFFFF")
+#
+# canvas = Canvas(
+#     window,
+#     bg="#FFFFFF",
+#     height=600,
+#     width=1024,
+#     bd=0,
+#     highlightthickness=0,
+#     relief="ridge"
+# )
+# canvas.place(x=0, y=0)
+# canvas.create_rectangle(
+#     0.0,
+#     0.0,
+#     1024.0,
+#     216.0,
+#     fill="#4DBFFF",
+#     outline=""
+# )
+#
+# canvas.create_text(
+#     212.0,
+#     100.0,
+#     anchor="nw",
+#     text="Virus Total Scan has been Selected",
+#     fill="#000000",
+#     font=("Inter", 30)
+# )
+#
+# # Return to the main menu button
+# button_image_1 = PhotoImage(
+#     file=relative_to_assets("button_1.png"))
+# button_1 = Button(
+#     image=button_image_1,
+#     borderwidth=0,
+#     highlightthickness=0,
+#     command=lambda: on_button_click("Main.py"),
+#     relief="flat"
+# )
+# button_1.place(
+#     x=252.0,
+#     y=500.0,
+#     width=120.0,
+#     height=80.0
+# )
+#
+# # Scan button
+# button_image_2 = PhotoImage(
+#     file=relative_to_assets("button_2.png"))
+# button_2 = Button(
+#     image=button_image_2,
+#     borderwidth=0,
+#     highlightthickness=0,
+#     command=lambda: on_button_click("VT_scan.py"),
+#     relief="flat"
+# )
+# button_2.place(
+#     x=452.0,
+#     y=500.0,
+#     width=120.0,
+#     height=80.0
+# )
+#
+# # View scan history button
+# button_image_3 = PhotoImage(
+#     file=relative_to_assets("button_3.png"))
+# button_3 = Button(
+#     image=button_image_3,
+#     borderwidth=0,
+#     highlightthickness=0,
+#     command=lambda: on_button_click2(),
+#     relief="flat"
+# )
+# button_3.place(
+#     x=652.0,
+#     y=500.0,
+#     width=120.0,
+#     height=80.0
+# )
+#
+# entry_image_1 = PhotoImage(
+#     file=relative_to_assets("entry_1.png"))
+# entry_bg_1 = canvas.create_image(
+#     512.0,
+#     308.5,
+#     image=entry_image_1
+# )
+# text_widget = Text(
+#     window,
+#     wrap="word",
+#     font=("Inter", 12),
+#     bg="#B8E1EA",
+#     bd=0,
+#     highlightthickness=0,
+#     relief="flat"
+# )
+# text_widget.place(x=252.0, y=316.0, width=520.0, height=183.0)
+#
+# window.resizable(False, False)
+# window.mainloop()
+
+
 window = Tk()
+# Adjusted window geometry for a 1024x600 screen
+# Adjusted window geometry for a 1024x600 screen
 window.geometry("1024x600")
 window.configure(bg="#FFFFFF")
 
@@ -53,6 +163,7 @@ canvas = Canvas(
     highlightthickness=0,
     relief="ridge"
 )
+
 canvas.place(x=0, y=0)
 canvas.create_rectangle(
     0.0,
@@ -64,15 +175,15 @@ canvas.create_rectangle(
 )
 
 canvas.create_text(
-    212.0,
+    295.0,
     100.0,
     anchor="nw",
-    text="Virus Total Scan has been Selected",
+    text="Clam AV Scan has been Selected",
     fill="#000000",
-    font=("Inter", 30)
+    font=("Inter", 30 * -1)  # Adjusted font size
 )
 
-# Return to the main menu button
+# Adjusted button placements for a 1024x600 screen
 button_image_1 = PhotoImage(
     file=relative_to_assets("button_1.png"))
 button_1 = Button(
@@ -83,30 +194,28 @@ button_1 = Button(
     relief="flat"
 )
 button_1.place(
-    x=252.0,
-    y=500.0,
+    x=244.0,
+    y=450.0,
     width=120.0,
     height=80.0
 )
 
-# Scan button
 button_image_2 = PhotoImage(
     file=relative_to_assets("button_2.png"))
 button_2 = Button(
     image=button_image_2,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: on_button_click("VT_scan.py"),
+    command=lambda: on_button_click3("VT_scan.py"),
     relief="flat"
 )
 button_2.place(
-    x=452.0,
-    y=500.0,
+    x=404.0,
+    y=450.0,
     width=120.0,
     height=80.0
 )
 
-# View scan history button
 button_image_3 = PhotoImage(
     file=relative_to_assets("button_3.png"))
 button_3 = Button(
@@ -117,19 +226,13 @@ button_3 = Button(
     relief="flat"
 )
 button_3.place(
-    x=652.0,
-    y=500.0,
+    x=564.0,
+    y=450.0,
     width=120.0,
     height=80.0
 )
 
-entry_image_1 = PhotoImage(
-    file=relative_to_assets("entry_1.png"))
-entry_bg_1 = canvas.create_image(
-    512.0,
-    308.5,
-    image=entry_image_1
-)
+# Create a Text widget to display the text
 text_widget = Text(
     window,
     wrap="word",
@@ -139,7 +242,7 @@ text_widget = Text(
     highlightthickness=0,
     relief="flat"
 )
-text_widget.place(x=252.0, y=316.0, width=520.0, height=183.0)
+text_widget.place(x=244.0, y=216.0, width=536.0, height=225.0)  # Adjusted Text widget size
 
 window.resizable(False, False)
 window.mainloop()
