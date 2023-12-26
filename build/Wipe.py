@@ -6,9 +6,11 @@ import sys
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path(r"assets/frame3")
 
+
 def on_button_click(file_path):
     subprocess.Popen(["python3", file_path])
     sys.exit()
+
 
 def on_button_click3(file_path):
     try:
@@ -19,27 +21,36 @@ def on_button_click3(file_path):
         text_widget.delete(1.0, END)
         text_widget.insert(END, f"Error: {e.output}")
 
+
 def redirect_stdout_to_text_widget():
     sys.stdout = text_widget
 
+
 def restore_stdout():
     sys.stdout = sys.__stdout__
+
 
 def get_password():
     password = simpledialog.askstring("Password", "Enter password:")
     return password
 
+
 def check_password(password):
     stored_password = "your_stored_password"
     return password.strip() == stored_password
 
+
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 
+
 window = Tk()
 
+# Adjusted window geometry for a 1024x600 screen
 window.geometry("1024x600")
 window.configure(bg="#FFFFFF")
+# Set the window to full screen, change true or false to enable or disable
+window.attributes('-fullscreen', False)
 
 canvas = Canvas(
     window,
