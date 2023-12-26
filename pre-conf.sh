@@ -64,5 +64,12 @@ sudo chmod +x /etc/cron.daily/freshclam
 # Reload systemd to apply changes
 sudo systemctl daemon-reload
 
+sudo apt-get install -y florence
+
+# Run florence with focus detection
+florence --focus &
+
+echo "On-screen keyboard (florence) is now enabled with focus detection."
+
 # Display completion message
 echo "ClamAV installation and configuration completed."
