@@ -21,11 +21,20 @@ def on_button_click(file_path):
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 
+def toggle_fullscreen(event=None):
+    state = not window.attributes('-fullscreen')
+    window.attributes('-fullscreen', state)
 
 window = Tk()
 
-window.geometry("1024x600")  # Change the screen resolution to 1024x600
+# Adjusted window geometry for a 1024x600 screen
+window.geometry("1024x600")
 window.configure(bg="#FFFFFF")
+
+# Set the window to full screen, change true or false to enable or disable
+window.attributes('-fullscreen', False)
+
+
 
 canvas = Canvas(
     window,
