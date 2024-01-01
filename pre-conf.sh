@@ -64,6 +64,10 @@ sudo chmod +x /etc/cron.daily/freshclam
 # Reload systemd to apply changes
 sudo systemctl daemon-reload
 
+crontab -e
+@reboot /usr/bin/python3 /path/to/your/script.py
+
+
 sudo apt-get install -y florence
 
 # Run florence with focus detection

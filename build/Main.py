@@ -32,7 +32,7 @@ window.geometry("1024x600")
 window.configure(bg="#FFFFFF")
 
 # Set the window to full screen, change true or false to enable or disable
-window.attributes('-fullscreen', False)
+window.attributes('-fullscreen', True)
 
 
 
@@ -88,8 +88,8 @@ canvas.create_rectangle(
 )
 
 canvas.create_text(
-    279.0,
-    70.0,  # Adjust the y-coordinate for the new screen resolution
+    221.0,
+    70.0,
     anchor="nw",
     text="Welcome To Mobile Pi Scanner",
     fill="#000000",

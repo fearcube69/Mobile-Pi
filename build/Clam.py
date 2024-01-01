@@ -93,7 +93,7 @@ window.geometry("1024x600")
 window.configure(bg="#FFFFFF")
 
 # Set the window to full screen, change true or false to enable or disable
-window.attributes('-fullscreen', False)
+window.attributes('-fullscreen', True)
 
 canvas = Canvas(
     window,

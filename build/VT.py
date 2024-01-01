@@ -74,8 +74,8 @@ canvas.create_rectangle(
 
 # title of the page
 canvas.create_text(
-    295.0,
-    100.0,
+    221.0,
+    70.0,
     anchor="nw",
     text="Virus Total Scan has been Selected",
     fill="#000000",
