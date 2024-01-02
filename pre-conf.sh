@@ -45,6 +45,8 @@ fi
 # Modify sudoers file
 echo "$name_user ALL=(ALL:ALL)" | sudo tee -a /etc/sudoers
 
+
+
 # Display activation instructions
 echo "Virtual environment activated."
 echo "To deactivate the virtual environment, run: deactivate"
@@ -69,13 +71,39 @@ sudo systemctl daemon-reload
 crontab -e
 @reboot /usr/bin/python3 /path/to/your/script.py
 
-sudo apt-get install -y onboard
+sudo apt-get install -y matchbox-keyboard
 
-# Configure onboard to start when a text input area is focused
-gsettings set org.gnome.desktop.a11y.applications screen-keyboard-enabled true
-gsettings set org.gnome.settings-daemon.peripherals.keyboard numlock-state 'on'
+# Install xdotool
+sudo apt-get install -y xdotool
 
-echo "Onboard installed and configured. Restart your session or reboot for changes to take effect."
+# Configure Matchbox keyboard to start when a text input area is focused
+mkdir -p ~/.config/autostart
+echo -e "[Desktop Entry]\nType=Application\nName=Matchbox Keyboard\nExec=matchbox-keyboard\n" > ~/.config/autostart/matchbox-keyboard.desktop
 
+echo -e "#!/bin/bash\nmatchbox-keyboard &" > ~/start_matchbox_keyboard.sh
+chmod +x ~/start_matchbox_keyboard.sh
+
+# Create a .desktop file for autostart
+echo -e "[Desktop Entry]\nType=Application\nExec=/home/pi/start_matchbox_keyboard.sh\nHidden=false\nNoDisplay=false\nX-GNOME-Autostart-enabled=true\nName=MatchboxKeyboard" > ~/.config/autostart/matchbox-keyboard.desktop
+
+echo "Matchbox keyboard installed and configured. Restart your session or reboot for changes to take effect."
+
+# on boot config when starting up
+
+SCRIPT_NAME="your_script.py"
+BUILD_DIR="build"
+CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+RC_LOCAL="/etc/rc.local"
+
+# Check if the script name is provided
+if [ -z "$SCRIPT_NAME" ]; then
+    echo "Error: Please provide the name of your Python script."
+    exit 1
+fi
+
+# Add the script execution command to rc.local
+sudo sed -i -e '$i \sudo python3 '"$CURRENT_DIR/$BUILD_DIR/$SCRIPT_NAME"' &\n' "$RC_LOCAL"
+
+echo "Configuration complete. Reboot your Raspberry Pi to start the script on boot."
 # Display completion message
 echo "ClamAV installation and configuration completed."
