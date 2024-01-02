@@ -7,6 +7,8 @@ name_user=$(whoami)
 # Set the path to the virtual environment
 VENV_PATH="$(dirname "$(readlink -f "$0")")/venv"
 
+sudo apt-get install python3
+
 # Check if the virtual environment exists
 if [ -d "$VENV_PATH" ]; then
     # Virtual environment exists, activate it
@@ -40,7 +42,7 @@ else
   echo "Error configuring swap" | tee -a installation_errors.txt
 fi
 
-# Modify sudoers file (use with caution!)
+# Modify sudoers file
 echo "$name_user ALL=(ALL:ALL)" | sudo tee -a /etc/sudoers
 
 # Display activation instructions
@@ -67,13 +69,13 @@ sudo systemctl daemon-reload
 crontab -e
 @reboot /usr/bin/python3 /path/to/your/script.py
 
+sudo apt-get install -y onboard
 
-sudo apt-get install -y florence
+# Configure onboard to start when a text input area is focused
+gsettings set org.gnome.desktop.a11y.applications screen-keyboard-enabled true
+gsettings set org.gnome.settings-daemon.peripherals.keyboard numlock-state 'on'
 
-# Run florence with focus detection
-florence --focus &
-
-echo "On-screen keyboard (florence) is now enabled with focus detection."
+echo "Onboard installed and configured. Restart your session or reboot for changes to take effect."
 
 # Display completion message
 echo "ClamAV installation and configuration completed."
