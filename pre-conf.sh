@@ -90,7 +90,7 @@ echo "Matchbox keyboard installed and configured. Restart your session or reboot
 
 # on boot config when starting up
 
-SCRIPT_NAME="your_script.py"
+SCRIPT_NAME="Main.py"
 BUILD_DIR="build"
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 RC_LOCAL="/etc/rc.local"
