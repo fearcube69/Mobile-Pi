@@ -68,8 +68,8 @@ sudo chmod +x /etc/cron.daily/freshclam
 # Reload systemd to apply changes
 sudo systemctl daemon-reload
 
-crontab -e
-@reboot /usr/bin/python3 /path/to/your/script.py
+#crontab -e
+#@reboot /usr/bin/python3 /path/to/your/script.py
 
 sudo apt-get install -y matchbox-keyboard
 
