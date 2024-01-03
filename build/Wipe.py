@@ -91,7 +91,7 @@ button_1 = Button(
     relief="flat"
 )
 button_1.place(
-    x=372.0,
+    x=360.0,
     y=450.0,  # Adjusted y-coordinate
     width=120.0,
     height=80.0
@@ -107,7 +107,7 @@ button_2 = Button(
     relief="flat"
 )
 button_2.place(
-    x=532.0,  # Adjusted x-coordinate
+    x=540.0,  # Adjusted x-coordinate
     y=450.0,  # Adjusted y-coordinate
     width=120.0,
     height=80.0

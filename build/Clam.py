@@ -151,7 +151,7 @@ button_2 = Button(
     relief="flat"
 )
 button_2.place(
-    x=404.0,
+    x=460.0,
     y=450.0,
     width=120.0,
     height=80.0
@@ -167,7 +167,7 @@ button_3 = Button(
     relief="flat"
 )
 button_3.place(
-    x=564.0,
+    x=660.0,
     y=450.0,
     width=120.0,
     height=80.0

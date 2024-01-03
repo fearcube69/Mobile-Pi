@@ -248,3 +248,29 @@ Data read: 1.57 MB (ratio 1.06:1)
 Time: 13.943 sec (0 m 13 s)
 Start Date: 2023:12:12 12:06:00
 End Date:   2023:12:12 12:06:14
+/home/roxy/Downloads/mal/malware.exe: Win.Malware.Zusy-10016302-0 FOUND
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8681957
+Engine version: 0.103.9
+Scanned directories: 4
+Scanned files: 1
+Infected files: 1
+Data scanned: 1.67 MB
+Data read: 1.57 MB (ratio 1.06:1)
+Time: 20.611 sec (0 m 20 s)
+Start Date: 2024:01:03 20:34:13
+End Date:   2024:01:03 20:34:34
+/home/roxy/Downloads/mal/malware.exe: Win.Malware.Zusy-10016302-0 FOUND
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8681957
+Engine version: 0.103.9
+Scanned directories: 4
+Scanned files: 1
+Infected files: 1
+Data scanned: 1.67 MB
+Data read: 1.57 MB (ratio 1.06:1)
+Time: 13.066 sec (0 m 13 s)
+Start Date: 2024:01:03 20:35:55
+End Date:   2024:01:03 20:36:08
