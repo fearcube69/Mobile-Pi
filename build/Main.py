@@ -9,8 +9,9 @@ import sys
 from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 import subprocess
 
-OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"assets/frame4")
+ABSOLUTE_PATH = Path("/home/roxy/PycharmProjects/Mobile-Pi/build/")
+#ABSOLUTE_PATH = Path("~mopi/Mobile-Pi/build/")
+ASSETS_PATH = ABSOLUTE_PATH / Path("assets/frame4")
 
 
 def on_button_click(file_path):
