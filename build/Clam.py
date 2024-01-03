@@ -7,8 +7,8 @@ from tkinter import Tk, Canvas, Button, PhotoImage, Text, END, Scrollbar, VERTIC
 # OUTPUT_PATH = Path(__file__).parent
 # ASSETS_PATH = OUTPUT_PATH / "assets/frame1" # Update the path accordingly
 
-ABSOLUTE_PATH = Path("/home/roxy/PycharmProjects/Mobile-Pi/build/")
-#ABSOLUTE_PATH = Path("~mopi/Mobile-Pi/build/")
+#ABSOLUTE_PATH = Path("/home/roxy/PycharmProjects/Mobile-Pi/build/")
+ABSOLUTE_PATH = Path("~/Mobile-Pi/build/")
 ASSETS_PATH = ABSOLUTE_PATH / Path("assets/frame1")
 
 def on_button_click(file_path):

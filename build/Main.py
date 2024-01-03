@@ -9,8 +9,8 @@ import sys
 from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 import subprocess
 
-ABSOLUTE_PATH = Path("/home/roxy/PycharmProjects/Mobile-Pi/build/")
-#ABSOLUTE_PATH = Path("~mopi/Mobile-Pi/build/")
+#ABSOLUTE_PATH = Path("/home/roxy/PycharmProjects/Mobile-Pi/build/")
+ABSOLUTE_PATH = Path("~/Mobile-Pi/build/")
 ASSETS_PATH = ABSOLUTE_PATH / Path("assets/frame4")
 
 
