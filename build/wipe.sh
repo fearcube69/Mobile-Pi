@@ -22,7 +22,7 @@
 
 # Define the mount point of the USB flash drive
 # Define the specific directory to be used as the mount point
-target_mount_point="/media/roxy/'New Volume'"
+target_mount_point="/media/roxy/NGS"
 
 get_mounted_devices() {
     awk -v target="$target_mount_point" '$2 == target {print "Device: " $1 ", Mount Point: " $2 ", File System Type: " $3}' /proc/self/mounts

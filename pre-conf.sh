@@ -104,6 +104,30 @@ fi
 # Add the script execution command to rc.local
 sudo sed -i -e '$i \sudo python3 '"$CURRENT_DIR/$BUILD_DIR/$SCRIPT_NAME"' &\n' "$RC_LOCAL"
 
+
+# Define the file path
+desktop_file="$HOME/.config/autostart/startup.desktop"
+
+# Check if the directory exists, if not, create it
+mkdir -p "$HOME/.config/autostart"
+
+# Create the desktop file
+cat <<EOL > "$desktop_file"
+[Desktop Entry]
+Type=Application
+Name=Startup Script
+Exec=python3 /home/mopi/Mobile-Pi/build/Main.py
+X-GNOME-Autostart-enabled=true
+EOL
+
+# Make the desktop file executable
+chmod +x "$desktop_file"
+
+echo "Desktop file created at: $desktop_file"
+echo "Restart to see change."
+
+
+
 echo "Configuration complete. Reboot your Raspberry Pi to start the script on boot."
 # Display completion message
 echo "ClamAV installation and configuration completed."
