@@ -131,3 +131,33 @@ echo "Restart to see change."
 echo "Configuration complete. Reboot your Raspberry Pi to start the script on boot."
 # Display completion message
 echo "ClamAV installation and configuration completed."
+
+
+# Install Matchbox Keyboard
+sudo apt install matchbox-keyboard
+sudo apt-get install libmatchbox1 -y
+
+# Create a script to toggle the Matchbox keyboard
+echo '#!/bin/bash
+PID="$(pidof matchbox-keyboard)"
+if [ "$PID" != "" ]; then
+ kill $PID
+else
+ matchbox-keyboard &
+fi' | sudo tee /usr/bin/toggle-keyboard.sh > /dev/null
+
+# Give execute permissions to the script
+sudo chmod +x /usr/bin/toggle-keyboard.sh
+
+# Create a desktop entry file for the Matchbox keyboard
+echo '[Desktop Entry]
+Name=Toggle Matchbox Keyboard
+Comment=Toggle Matchbox Keyboard
+Exec=toggle-keyboard.sh
+Type=Application
+Icon=matchbox-keyboard.png
+Categories=Panel;Utility;MB
+X-MB-INPUT-MECHANSIM=True' | sudo tee /usr/share/applications/toggle-keyboard.desktop > /dev/null
+
+# Set up the keyboard to auto-start when the Raspberry Pi boots up
+echo 'toggle-keyboard.sh' >> ~/.bashrc
