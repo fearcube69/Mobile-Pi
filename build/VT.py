@@ -1,6 +1,6 @@
 from pathlib import Path
 import subprocess
-from tkinter import Tk, Canvas, Button, PhotoImage, Text, END
+from tkinter import Tk, Canvas, Button, PhotoImage, Text,END, Scrollbar, VERTICAL
 import os
 import sys
 
@@ -144,6 +144,12 @@ text_widget = Text(
     relief="flat"
 )
 text_widget.place(x=244.0, y=216.0, width=536.0, height=225.0)  # Adjusted Text widget size
+
+# Create a Scrollbar and attach it to the Text widget
+scrollbar = Scrollbar(window, orient=VERTICAL, command=text_widget.yview)
+scrollbar.place(x=770.0, y=216.0, height=225.0) # Adjusted Scrollbar position
+
+text_widget['yscrollcommand'] = scrollbar.set
 
 window.resizable(False, False)
 window.mainloop()
