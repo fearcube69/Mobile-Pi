@@ -68,6 +68,7 @@ sudo chmod +x /etc/cron.daily/freshclam
 # Reload systemd to apply changes
 sudo systemctl daemon-reload
 
+sudo apt-get install psmisc
 #crontab -e
 #@reboot /usr/bin/python3 /path/to/your/script.py
 
@@ -103,6 +104,8 @@ fi
 
 # Add the script execution command to rc.local
 sudo sed -i -e '$i \sudo python3 '"$CURRENT_DIR/$BUILD_DIR/$SCRIPT_NAME"' &\n' "$RC_LOCAL"
+
+
 
 
 # Define the file path
@@ -158,6 +161,7 @@ Type=Application
 Icon=matchbox-keyboard.png
 Categories=Panel;Utility;MB
 X-MB-INPUT-MECHANSIM=True' | sudo tee /usr/share/applications/toggle-keyboard.desktop > /dev/null
+
 
 # Set up the keyboard to auto-start when the Raspberry Pi boots up
 echo 'toggle-keyboard.sh' >> ~/.bashrc
