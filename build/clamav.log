@@ -274,3 +274,786 @@ Data read: 1.57 MB (ratio 1.06:1)
 Time: 13.066 sec (0 m 13 s)
 Start Date: 2024:01:03 20:35:55
 End Date:   2024:01:03 20:36:08
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8682251
+Engine version: 0.103.9
+Scanned directories: 0
+Scanned files: 0
+Infected files: 0
+Data scanned: 0.00 MB
+Data read: 0.00 MB (ratio 0.00:1)
+Time: 15.848 sec (0 m 15 s)
+Start Date: 2024:01:07 22:04:22
+End Date:   2024:01:07 22:04:38
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8682251
+Engine version: 0.103.9
+Scanned directories: 0
+Scanned files: 0
+Infected files: 0
+Data scanned: 0.00 MB
+Data read: 0.00 MB (ratio 0.00:1)
+Time: 13.897 sec (0 m 13 s)
+Start Date: 2024:01:07 22:05:11
+End Date:   2024:01:07 22:05:25
+/home/roxy/Documents/selected_files.zip: OK
+/home/roxy/Documents/scan example/2.png: OK
+/home/roxy/Documents/scan example/1.MOV: OK
+/home/roxy/Documents/scan example/lumma.zip: OK
+/home/roxy/Documents/scan example/FHD0007.MOV: OK
+/home/roxy/Documents/scan example/4.png: OK
+/home/roxy/Documents/scan example/3.MOV: OK
+/home/roxy/Documents/scan example/lumma/lumma.exe: Win.Packed.Stealerc-10017072-0 FOUND
+/home/roxy/Documents/scan example/2.MOV: OK
+/home/roxy/Documents/scan example/stealer/d198da5624dee1ce2f38222ad1693bdeeec82495031fa8ca53ef3f28efec384b.exe: OK
+/home/roxy/Documents/scan example/history.txt: OK
+/home/roxy/Documents/scan example/7432d526-8d10-4d86-8c81-4a47cfbdf39e.webp: OK
+/home/roxy/Documents/scan example/4.MOV: OK
+/home/roxy/Documents/scan example/aa.zip: OK
+/home/roxy/Documents/scan example/aa/44e022223df79fb2724a328b1390e2724ecaf8721328c4cf36e03da2a67c4a95.exe: OK
+/home/roxy/Documents/scan example/a68916a6-5a66-4a9b-a9f2-89305660522c.webp: OK
+/home/roxy/Documents/scan example/stealer.zip: OK
+/home/roxy/Documents/scan example/cobalt/8bfed2fc726e8d292fb7fd8238409aa096b8a17a6030c9aca6995bcbcf6b7a47.exe: Win.Trojan.CobaltStrike-7899872-1 FOUND
+/home/roxy/Documents/scan example/cobalt.zip: OK
+/home/roxy/Documents/test.py: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8682251
+Engine version: 0.103.9
+Scanned directories: 6
+Scanned files: 20
+Infected files: 2
+Data scanned: 8.25 MB
+Data read: 5179.02 MB (ratio 0.00:1)
+Time: 16.738 sec (0 m 16 s)
+Start Date: 2024:01:07 22:07:10
+End Date:   2024:01:07 22:07:27
+/home/roxy/Documents/selected_files.zip: OK
+/home/roxy/Documents/scan example/2.png: OK
+/home/roxy/Documents/scan example/1.MOV: OK
+/home/roxy/Documents/scan example/lumma.zip: OK
+/home/roxy/Documents/scan example/FHD0007.MOV: OK
+/home/roxy/Documents/scan example/4.png: OK
+/home/roxy/Documents/scan example/3.MOV: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/5cb5dce0a1e03fc4d3ffc831e4a356bce80e928423b374fc80ee997e7c62d3f8: Win.Malware.Agent-9377498-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/9526ccdeb9bf7cfd9b34d290bdb49ab6a6acefc17bff0e85d9ebb46cca8b9dc2: Win.Malware.Agent-9377973-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/6e0f793025537edf285c5749b3fcd83a689db0f1c697abe70561399938380f89: Win.Malware.Agent-9377600-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/5130282cdb4e371b5b9257e6c992fb7c11243b2511a6d4185eafc0faa0e0a3a6: Win.Malware.Agent-9377423-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/15892206207fdef1a60af17684ea18bcaa5434a1c7bdca55f460bb69abec0bdc: Win.Malware.Agent-9376946-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/845759bb54b992a6abcbca4af9662e94794b8d7c87063387b05034ce779f7d52: Win.Malware.Agent-9377782-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/18a4f2e7847a2c4e3c9a949cc610044bde319184ef1f4d23a8053e5087ab641b: Win.Malware.Agent-9376921-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/9791c5f567838f1705bd46e880e38e21e9f3400c353c2bf55a9fa9f130f3f077: Win.Malware.Agent-9377975-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/3c38e7bb004b000bd90ad94446437096f46140292a138bfc9f7e44dc136bac8d: Win.Malware.Agent-9377283-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/473c5df2617cee5a1f73880c2d66ad9668eeb2e6c0c86a2e9e33757976391d1a: Win.Malware.Agent-9377325-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/fa3c2f8e3309ee67e7684abc6602eea0d1d18d5d799a266209ce594947269346: Win.Malware.Agent-9378626-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/4b514278a3ad03f5efb9488f41585458c7d42d0028e48f6e45c944047f3a15e9: Win.Malware.Agent-9377408-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/13f3ea4783a6c8d5ec0b0d342dcdd0de668694b9c1b533ce640ae4571fdbf63c: Win.Malware.Agent-9377060-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/62426146b8fcaeaf6abb24d42543c6374b5f51e06c32206ccb9042350b832ea8: Win.Malware.Agent-9377443-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/3615f0019e9a64a78ccb57faa99380db0b36146ec62df768361bca2d9a5c27f2: Win.Malware.Agent-9377249-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/09ab3031796bea1b8b79fcfd2b86dac8f38b1f95f0fce6bd2590361f6dcd6764: Win.Malware.Agent-9377046-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/8fd16e639f99cdaa7a2b730fc9af34a203c41fb353eaa250a536a09caf78253b: Win.Malware.Agent-9377913-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/a569332b52d484f40b910f2f0763b13c085c7d93dcdc7fea0aeb3a3e3366ba5d: Win.Malware.Agent-9378158-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/55b5671876f463f2f75db423b188a1d478a466c5e68e6f9d4f340396f6558b9f: Win.Malware.Agent-9377481-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/3cb052a7da6cda9609c32b5bafa11b76c2bb0f74b61277fecf464d3c0baeac0e: Win.Malware.Agent-9377301-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.27_CISA-Legacy_Malware_Targeting_QNAP_NAS/a9364f3faffa71acb51b7035738cbd5e7438721b9d2be120e46b5fd3b23c6c18: Win.Malware.Agent-9378184-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.28_FBI-FLASH-MI-000130-MW/3ba905e1cda7307163d4c8fe3fd03c2fbce7eda030522084e33d0604c204630e: Win.Ransomware.Netwalker-7671868-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.28_FBI-FLASH-MI-000130-MW/8639825230d5504fd8126ed55b2d7aeb72944ffe17e762801aab8d4f8f880160: Win.Dropper.Qakbot-7646363-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.28_FBI-FLASH-MI-000130-MW/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.28_FBI-FLASH-MI-000130-MW/9f9027b5db5c408ee43ef2a7c7dd1aecbdb244ef6b16d9aafb599e8c40368967: Win.Dropper.Netwalker-7669813-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.28_FBI-FLASH-MI-000130-MW/ad8d379a4431cabd079a1c34add903451e11f06652fe28d3f3edb6c469c43893: Win.Malware.Agent-9378220-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.28_FBI-FLASH-MI-000130-MW/8f834966a06f34682b78e1644c47ab488b394b80109ddea39fc9a29ed0d56a0c: Win.Malware.Agent-9377924-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.28_FBI-FLASH-MI-000130-MW/de04d2402154f676f757cf1380671f396f3fc9f7dbb683d9461edd2718c4e09d: Win.Ransomware.Netwalker-7613711-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.28_FBI-FLASH-MI-000130-MW/58e923ff158fb5aecd293b7a0e0d305296110b83c6e270786edcc4fea1c8404c: Win.Ransomware.Netwalker-7613711-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.28_FBI-FLASH-MI-000130-MW/fd29001b8b635e6c51270788bab7af0bb5adba6917c278b93161cfc2bc7bd6ae: Win.Malware.Agent-9405619-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.28_FBI-FLASH-MI-000130-MW/3337e3875b05e0bfba69ab926532e3f179e8cfbf162ebb60ce58a0281437a7ef: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.01_CISA-MAR-10303705_RAT_SLOTHFULMEDIA/927d945476191a3523884f4c0784fb71c16b7738bd7f2abd1e3a198af403f0ae: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.01_CISA-MAR-10303705_RAT_SLOTHFULMEDIA/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.01_CISA-MAR-10303705_RAT_SLOTHFULMEDIA/64d78eec46c9ddd4b9a366de62ba0f2813267dc4393bc79e4c9a51a9bb7e6273: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/5e10cda5415e28b3efc9b909da6518d1cbcb56957e9850b99a4eee3893400012: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/bb1af121502e40a549135b72f34ad49d11cfbfa49b5cbcf549777549087fe751: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/46fd13169cf8e3dcefbd552918a0914261fd22dc22bd9cba167042288432f2b2: Win.Trojan.Mikey-9784448-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/a24d66f4356de33ba9227d4e496cc975995f1bd72d72e47f74f07648c45c5308: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/6d461bf3e3ca68b2d6d850322b79d5e3e647b0d515cb10449935bf6d77d7d5f2: Win.Malware.Crat-9787501-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/a1c7709d147d8182892585bc965317816367ebabc273e8a99559ade24b19ed7f: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/05d4da2cb9f6d5d44c399f42a81bb393b2ff6669d64ea773b58d2daf4df10d00: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/e4c1eaf014773cc25e2881fa2b2a67490a73c66683f5746276af7067777ed8b2: Win.Trojan.Mikey-9784448-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/88c168cd261dabea1b7223e8c05042be7e0505dedf6fd5effea90ae42e127968: Win.Malware.Crat-9787494-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/cb141c743ac41784501e2e84ccd9969aade82b296df077daff3c0734bb26c837: Win.Malware.Crat-9787499-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/2cff5e7d4405bf09f423db1d7a8e535a6be2f68cc4ce4a5817ae01bee09f088a: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/c4875cc728e7c4bc00646df57c8c38370fe11439e4c95e38040ba84fe27eb0b9: Win.Malware.Crat-9787498-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/277931bf51f195fceb9befad6f4cc9e613d203ed90d3e4a05a16bc603809dec6: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/1c17b631988d0b8b722adf9c973c6577c7983a9b0cb069dd1d442d04f4dd73df: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/931f57262214890f3eff9add25fb5dc2521185e4567c722637f173343b02b9fb: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/6caa98870efd1097ee13ae9c21c6f6c9202a19ad049a9e65c60fce5c889dc4c8: Win.Malware.Crat-9787501-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/9a6d3d07e784247fac1292c0f17a46247e8bdeb1f468c9b8b48c4459063c3ed5: Win.Trojan.Mikey-9784448-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/9f953f544afd265176ecb904cc8286cafc27270df0cec56265259c1588083202: Win.Trojan.Mikey-9784448-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/a7da1ec5745bb7ef5a4fd05d37d83b49b41ab70fae518e6a00b7caa30c417576: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/4dc302e1f7cf8bdc4983fdf02cf5b13bcd9314bb87953b9c6797187700192665: Win.Malware.Regrun-9784447-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/bd1a0425ffaafa54a1c950fbb3d0defe9fa145131e4bd15d392597de408f5287: Win.Trojan.Dropper-9787492-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/8377a53f7890f3cf01f8919207c981fb63b1b0e63860d5731622a0cad94fdd09: Win.Malware.Crat-9787497-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/6f79db3e7fa1f3c9e1ea2e0fe098994f109949f82b97c6612386693164d3c7e2: Win.Malware.Regrun-9784447-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/fb2ad747903f46d03b19b12c46a3e678e8a0c156092fb334aab47714a041265c: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/147f1de257ccbe54b0fca9e61e0f2061172459bef4eeb12014d27e48d99f27ab: Win.Malware.Agent-9377075-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/396ffa925165de08d0b5bf6cc6974a02a18b44ce60c3d3e657ba6c6153760138: Win.Trojan.Mikey-9784448-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/3689c56b854a99133818618dc97465d9303b3a4009a3c890f7afdfacadd0e1af: Win.Malware.Crat-9787493-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/2263031c15809b49e7d8161e147a4844722f6f576d276b2be38a0c794417dd2a: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/eab9136da8cc5c1a8a9fc528d64ef1ce11e385def98957712887785178e202a3: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/a52a8a9c99f58fb18ca3f969736f1deffd611c35851cff1bd5bd36ef27f2426d: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/0313641c0ed1defa6cb52e787f81eab3de8c0c546b4e157d803aab721fec3dc8: Win.Trojan.Mikey-9784446-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/8ae6f663bf40036379857d65521ce1c78c11cd9b5b4848cec0e7f1ad56e65743: Win.Malware.Crat-9787497-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/3f47d73a9d6597da1bdbf36f804b0b69a9958225ace088747098d3a24f5a5957: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/04c46c55336ac40d567ef0aac98ff8424872b584ea169c1a098ced833dd9bab4: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/0eca58ef6f2aba6b3e686f76039945b3a8a8110d357a4f8d857757c218ca0c1e: Win.Malware.Crat-9787497-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/e893b4f6b6f3ab977c96ab5e2c6115969cbe46a143531bfc9920d1b9972ebc12: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/02c4ba967900b49828985f7b67ebd21daa11b8bc9e4e0b6e5e9fef2de8fdc6d4: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/7a78dacbb7ff88b536d4a8db4e647df9efed8cea2d26cef0e21f7791e61bfbad: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/916654e2ee43d2ee43f0d5e9d41f8527aaf239684f91f9b92ac5c1937cd45c91: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/c9ba7e700276e0fd3e7060f81d4487f81d06bc3cba1e0a0eacd1ca21faca4400: Win.Malware.Crat-9787497-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/a052ee9f75231a60ad1210411b7296ff5adf7e9e268bf2f123f0560e0cb37b09: Win.Trojan.Mikey-9784448-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/1764ceca4425c6f577ecdb5c9435cf01807663508c3e1bbe1de2800d6c725a01: Win.Malware.Crat-9787497-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/3c6b9fb9d680704a1a6c17ef5b3e10b043d15c137dc04688f5802cddbddf90fe: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/12a7cec5631141f61ef159fbb43103a3cdd79ddd3a0270df62d4c4fa4635b03e: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/88f5c94ad66e75a66795875bacafb3cbbe87d1533ae3ddb41575b9711965c75b: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/9fc572e3a6c30221e5eecdd488efabbaf1bab04dff34860263495620fa4706c1: Win.Trojan.Mikey-9784446-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/f070b78ca7269addb922f9ea9a31f76198edb2e1064d9b04ca8d80ecba175ca4: Win.Malware.Crat-9787497-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/cd20d7209db84b35cae88affe228f42258b497eee2b36f0e3364779e58e5e2ce: Win.Trojan.Mikey-9784448-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/40273d18abc0d623a1798766e0d388f2f46bfa7ad535cad46098a5262382fa13: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/3c2e708989193b3497c2c97c3957d4abd2d5989c82832ce5c4a3b5a4c9ecd3f8: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/3d47ca0810b2d296aaa2541ef621f5d834dfbbd89cb671a2a95b7f2bddbd3e4e: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/1e34709734b401413cc38818c1d7e34126fdc01a9bc47a1607e1371dd8d1385b: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/844d60691d843de53d42b73d635314d50c4ba4d3b2aa2b93465ac0336e4c0588: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/359bfd21ed9a5deedc19700355776ede266e5c8532584289db45ebe2fd8d8afe: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/ab794769599c3f046d34d00051685b7235bce119f212ec8739b6e206dd73b0bf: Win.Malware.Crat-9787497-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/6d57df368c3e58be61bc36ee35123dcc5ce6d7a04cd6acfe7e10588038589ad4: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/f051c2f99b2d94b0fc5ae7893ec0467f4175cfa926cfc573a6b65a40c566f94d: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/2916801be5b6d26d735aaa11eb5631fc6dbe234ed2e0980b8d7366c89ad7ba39: Win.Malware.Crat-9787497-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/562c4102d48414ab32c6742f270948a5d92e3b2af6d30d04ba1f7411302cbea8: Win.Malware.Agent-8003910-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/37f3f6cdb0a35b4cea75b7cf2dae613c71370e00acdb2cebfc7d95fe33eb97a9: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/7050af905f1696b2b8cdb4c6e6805a618addf5acfbd4edc3fc807a663016ab26: Win.Trojan.Dropper-9787492-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/ca3372bb37e7109896c28247faadd157759d5e68ac324a54ff0759590f956094: Win.Malware.Regrun-9784447-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/5b627647df675d746f63280cf10a221abfe0a93bab88a96e45b4734beb05c021: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/4dccd9861da3b47bef43c72546044c1d136a5cb020aaa65a1ea494aec35e4910: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/49aa98e2100752c09d01a7638ea9ead3dd2fc72d826c4b77d188990b3599b08c: Win.Trojan.Mikey-9784448-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/eb9382b77f7ed3429b0fcfb5d5d64c0702f0c4d91c45bb8d3442ff1f851b8035: Win.Trojan.Mikey-9784448-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/70d92da003eb044d9c5aa057400256a51836466d2f20066deedf64e294466c20: Win.Trojan.Mikey-9784448-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/057cffe539a414ec4cef730e4fbf7861b61a7331bbd6d7feb55c76221a8cc6d3: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/955abf30fd464dd572938eaf324d3447ecd8cb6df183bbddee2a58f54da83f4c: Win.Trojan.Mikey-9784446-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/72d7b55e82080ff84693e1ecdfa7128ef9c513b3b8cc5e411715a40ef4ee0557: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/59628b36ba65a57600c48eaa57c8dcfffc955e447cb3e41b7351e875b359f714: Win.Malware.Crat-9787497-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/1fc8fb396a22f98c1230d0d8877f3806d52c1a2723add033223753f83628c826: Win.Malware.Agent-8003907-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/833a896b9236164472fa3ba30e63446b474f9f204fee06ac297877246b674871: Win.Malware.Crat-9789214-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/e93423a1c8add21c5676680a090ddc913d359c29ea9e44ffc91fb10396e3e858: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/c0bd35a36ea5227b9b981d7707dff0e2c5ca87453a5289dc4a5cd04c7e8b728c: Win.Trojan.Dropper-9787492-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/1ea8b9f307f2c4202380f1fe14044ff4b9140337b53fdf627e5411e979b4b5ea: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/11c266c1b0f0428585d40fc95d1a7d3eedb3d0f304cf7ebc692c4487e18c9afb: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/389518ac65595ad9138b5dd0185aae851d979d4705d74f191492f002e63438c5: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/a36a7e247ea5920514b4d918a6dcdcc7c7f84f0c657b2297a1a0eba3558e24c2: Win.Malware.Crat-9787493-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/e0fa30565977fb3b97102eef8d28f86cdcd6685aa0d20eee4baaa72216fa562b: Win.Malware.Crat-9787493-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/1101d00223a62e77718da28053758208897d1dc627a06a01f0e620a6ccad3812: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/4aa2dc282c56e397b501d84cfd6c582cc256c42e8b6722b45a592cf2008a6495: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/5464728537836d4aa3d03e4d29ef21e59a324252c4b2a15ec21e9f5280f7c280: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/a668af2c1b45bf83d509c88ad4b3e6fbadc7e9e3db4ea688888c7712866d1339: Win.Trojan.Mikey-9784446-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/eae3dc403d36b115aa4f7db64cb1a64fa50dbff2b6ce3d118eeb1f745d1ecd14: Win.Trojan.Dropper-9787492-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/8edfc15862e3a9b7824fcb4b55c4fefdb4b28b66e3689a6f854e05aef5206dbb: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/b27c02b4a272453194d0f03c395c4e3dbdf0efc4b8a61cd33b1a70320acf5345: Win.Malware.Regrun-9784447-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/8f0bfbde00e5e86223e586874df892e6fb2b97b133a909b7fdeacf7614df478f: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/e99c9190cfdc6ad1e45efc6b993078f3122857607f1fede91757a04064f71ad7: Win.Malware.Crat-9787493-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/b962e4580e05e004df9fe2c22b34556bc513370c9a775bfe185e05a9d0df494e: Win.Trojan.Dropper-9787492-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/9461599bc85cf2ef11cb79a827fd365a086726b7c022fb2bfe5fb9f83e71cf9a: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/26c70fa62e1d092ad1855900cd0db4e224b11e84fdf14105ade5e2b2a3dc1b62: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/5fd89dbd129877d5141f9731a61af867b74fc7a33213233307b725ec97532a7b: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/683b4472a0df8af6c93ff10179e981a7908173bfb81bac2e12a3b9a022cf08d7: Win.Malware.Crat-9787497-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/c77e5533285871b888257e32653b33acf7e6a7b06d200d02995ae365dfa0a26f: Win.Malware.Crat-9787493-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/3b55f8467b2d3bc34c7fe4e0c4502bc1045c50d7c7fedda4a14eaf9094dfc8bf: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/2ef70a256dde1a9700527c995be417447dee1857759e8279aa7a287f85c9de96: Win.Trojan.Mikey-9635701-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/87ce3a13a58ae8007b002ac81f43dc364c1b93b0d3c2a19d46a4480caca9ae29: Win.Malware.Generickdz-9784449-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Cisco-CRAT_Lazarus/7a3915a7d919fb266496616a06311c456c8e45b98cfd24c92ac4bf0af75fa3ef: Win.Trojan.Mikey-9784446-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.19_CISA-North_Korean_RAT_BLINDINGCAN/58027c80c6502327863ddca28c31d352e5707f5903340b9e6ccc0997fcb9631d: Win.Trojan.BLINDINGCAN00-9448698-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.19_CISA-North_Korean_RAT_BLINDINGCAN/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.19_CISA-North_Korean_RAT_BLINDINGCAN/8b53b519623b56ab746fdaf14d3eb402e6fa515cde2113a07f5a3b4050e98050: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.19_CISA-North_Korean_RAT_BLINDINGCAN/7933716892e0d6053057f5f2df0ccadf5b06dc739fea79ee533dd0cec98ca971: Win.Malware.Agent-8366038-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.19_CISA-North_Korean_RAT_BLINDINGCAN/6a3446b8a47f0ab4f536015218b22653fff8b18c595fbc5b0c09d857eba7c7a1: Doc.Downloader.BLINDINGCAN0-9448424-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.19_CISA-North_Korean_RAT_BLINDINGCAN/bdfd16dc53f5c63da0b68df71c6e61bad300e59fd5748991a6b6a3650f01f9a1: Win.Trojan.BLINDINGCAN00-9448698-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.22_Truesec-Fin7_and_Ryuk/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.22_Truesec-Fin7_and_Ryuk/53430abd76a5cfcfada4962cd8925b2e32620c44a8863b445ba145f42dbfea64: Win.Malware.Generic-9764487-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.22_Truesec-Fin7_and_Ryuk/363775ec196dc5f5c435068b4237c42c2038bd15ef40fd453fa1f49c827bdaf2: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.22_Truesec-Fin7_and_Ryuk/1bbe96a888c6e3a52cdb0676f38a8a379a72e6f4ade58f101a0559c7ad6f99c7: Win.Ransomware.Ryuk-6688842-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.22_Truesec-Fin7_and_Ryuk/8141f47a1ee8453ac01daacb16cab2d18b37a9045edc5f20c9019d4327576704: Win.Ransomware.Ryuk-6688842-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.22_Truesec-Fin7_and_Ryuk/d9a6dd7216faafc65d419d09b6b7b5ddf24991a1f65f23113dde40d4936eea55: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.16_BitDefender-Chinese_APT/6f7f142089b1d2e48880f59362c7c50e5d193166bdd5e4b27318133e8fe27b2c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.16_BitDefender-Chinese_APT/63e8488de30c9b615c76d4e568f0a1b738fcad665e58571c299d8e9d7752a637: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.16_BitDefender-Chinese_APT/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.16_BitDefender-Chinese_APT/5e90afbdfb63110fa3c9cdd79ef474852996a895a6bad66a663e2ccc51dd339b: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.16_BitDefender-Chinese_APT/7b524c3bdd5d5474b6e050084e3f32d2bf7f5c4539b44221e4bc2987b2deb56d: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.16_BitDefender-Chinese_APT/28570122e952f25c92dfb83707c502a5036b9f99770127435cbb8c7e6796cce4: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.16_BitDefender-Chinese_APT/e97ac9089fa80dc38e8fe920008c117d93203e45a1516d24b59f17f7055b8ced: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.16_BitDefender-Chinese_APT/32cabf2952f88283251c36751e04a45bfa78cdb0835460619d4812b882795c03: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.16_BitDefender-Chinese_APT/e61649ac70198e223c123ad29c7d02ebe4fe6da7f35282d26bd93d466e85176d: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.16_BitDefender-Chinese_APT/2e6dfca6b2b8a11d6eb8933bd7ed7f17ca46499a3ee548bbb086406eb57b2204: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.16_BitDefender-Chinese_APT/ba3d8ff9b3f6b6223dd33dee15321e267cc28627723e68cd632e59d85c529330: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.16_BitDefender-Chinese_APT/631c62e067667a02da63a97aeeb556bece8394deee59e62b48f63baecf4cf613: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.15_CISA-MAR-10297887_Iranian_Web_Shells/b443032aa281440017d1dcc3ae0a70d1d30d4f2f2b3f064f95f285e243559249: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.15_CISA-MAR-10297887_Iranian_Web_Shells/55b9264bc1f665acd94d922dd13522f48f2c88b02b587e50d5665b72855aa71c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.15_CISA-MAR-10297887_Iranian_Web_Shells/REAMDE.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.15_CISA-MAR-10297887_Iranian_Web_Shells/913ee2b048093162ff54dca050024f07200cdeaf13ffd56c449acb9e6d5fbda0: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.15_CISA-MAR-10297887_Iranian_Web_Shells/547440bd037a149ac7ac58bc5aaa65d079537e7a87dc93bb92edf0de7648761c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.15_CISA-MAR-10297887_Iranian_Web_Shells/10836bda2d6a10791eb9541ad9ef1cb608aa9905766c28037950664cd64c6334: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.15_CISA-MAR-10297887_Iranian_Web_Shells/4a1fc30ffeee48f213e256fa7bff77d8abd8acd81e3b2eb3b9c40bd3e2b04756: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.15_CISA-MAR-10297887_Iranian_Web_Shells/51e9cadeab1b33260c4ccb2c63f5860a77dd58541d7fb0840ad52d0a1abedd21: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/LICENSE: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.01.25_Google-Campaign_Targeting_Security_Researchers/a75886b016d84c3eaacaf01a3c61e04953a7a3adf38acf77a4a2e3a8f544f855: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.01.25_Google-Campaign_Targeting_Security_Researchers/4c3499f3cc4a4fdc7e67417e055891c78540282dccc57e37a01167dfe351b244: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.01.25_Google-Campaign_Targeting_Security_Researchers/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.01.25_Google-Campaign_Targeting_Security_Researchers/a4fb20b15efd72f983f0fb3325c0352d8a266a69bb5f6ca2eba0556c3e00bd15: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.01.25_Google-Campaign_Targeting_Security_Researchers/68e6b9d71c727545095ea6376940027b61734af5c710b2985a628131e47c6af7: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.01.25_Google-Campaign_Targeting_Security_Researchers/25d8ae4678c37251e7ffbaeddc252ae2530ef23f66e4c856d98ef60f399fa3dc: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.22_Weixin-Bitter_CHM_APT/d957239ba4d314e47de9748e77a229f4f969f55b3fcf54a096e7971c7f1bab7d: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.22_Weixin-Bitter_CHM_APT/c42865e79497dbba80cfd806e0d3dc58769212fca2f9e82620029503b6ef7d8a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.22_Weixin-Bitter_CHM_APT/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.22_Weixin-Bitter_CHM_APT/78b16177d8c5b2e06622688a9196ce7452ca1b25a350daae8c4f12c2e415065c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.22_Weixin-Bitter_CHM_APT/59d212b7a8455a10162064b153fa9b0968ef6e29ab6bda4b5d6c5fc1f99cd8f7: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.22_Weixin-Bitter_CHM_APT/e48aac5148b261371c714b9e00268809832e4f82d23748e44f5cfbbf20ca3d3f: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_BlackBerry-CostaRicto/8062e1582525534b9c52c5d9a38d6b012746484a2714a14febe2d07af02c32d5: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_BlackBerry-CostaRicto/ee0f4afee2940bbe895c1f1f60b8967291a2662ac9dca9f07d9edf400d34b58a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_BlackBerry-CostaRicto/8323094c43fcd2da44f60b46f043f7ca4ad6a2106b6561598e94008ece46168b: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_BlackBerry-CostaRicto/6df8271ae0380737734b2dd6d46d0db3a30ba35d7379710a9fb05d1510495b49: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_BlackBerry-CostaRicto/fa74f70baa15561c28c793b189102149d3fb4f24147adc5efbd8656221c0960b: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_BlackBerry-CostaRicto/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_BlackBerry-CostaRicto/7424d6daab8407e85285709dd27b8cce7c633d3d4a39050883ad9d82b85198bf: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_BlackBerry-CostaRicto/d8189ebdec637fc83276654635343fb422672fc5e3e2818df211fb7c878a3155: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_BlackBerry-CostaRicto/130fa726df5a58e9334cc28dc62e3ebaa0b7c0d637fce1a66daff66ee05a9437: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_BlackBerry-CostaRicto/79009ee869cec789a3d2735e0a81a546b33e320ee6ae950ba236a9f417ebf763: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_BlackBerry-CostaRicto/f6ecdae3ae4769aaafc8a0faab30cb66dab8c9d3fff27764ff208be7a455125c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_BlackBerry-CostaRicto/c0db3dadf2e270240bb5cad8a652e5e11e3afe41b8ee106d67d47b06f5163261: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_BlackBerry-CostaRicto/70d63029c65c21c4681779e1968b88dc6923f92408fe5c7e9ca6cb86d7ba713a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_BlackBerry-CostaRicto/d69764b22d1b68aa9462f1f5f0bf18caebbcff4d592083f80dbce39c64890295: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_BlackBerry-CostaRicto/561bf3f3db67996ce81d98f1df91bfa28fb5fc8472ed64606ef8427a97fd8cdd: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.09_TrendMicro-SideWinder/7238f4e5edbe0e5a2242d8780fb58c47e7d32bf2c4f860c88c511c30675d0857: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.09_TrendMicro-SideWinder/34446f7f60f730fcca145155d10d1aff0a1153b085836df38313772cd03c8d70: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.09_TrendMicro-SideWinder/75c158cea14e338c8d9d32ed988c7032da9ae6d54f5b1126ed6a83f71b9e03bf: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.09_TrendMicro-SideWinder/96bf8f579acb8d9d0ff116d05fdadef85953f11e5b2e703041fdae0abf5b75dc: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.09_TrendMicro-SideWinder/2548a819e4c597ba5958d2d18baa544452948e5b00271570192ccd79abe88e8d: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.09_TrendMicro-SideWinder/1cbec920afe2f978b8f84e0a4e6b757d400aeb96e8c0a221130060b196ece010: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.09_TrendMicro-SideWinder/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.09_TrendMicro-SideWinder/799260b992c77e2e14f2d586665c570142d8425864455cab5f2575015cd0b87a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.09_TrendMicro-SideWinder/ed5e1d6e914de64a203f2f32ab95176fc7efff3a520915971d5fe748e79d611c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.09_TrendMicro-SideWinder/ab7c1967bf1fefdffde93626b78eb30994655ab02f59e0adb0935e3e599a953f: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.30_ESET-APT‑C‑23_Android/c80a9a588ef27081e70f2f0d6594f0b0d7f211336d5323b896604ba6679935e5: Andr.Trojan.AridViper-9994569-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.30_ESET-APT‑C‑23_Android/54f2aa690954ddfcd72e0915147378dd9a7228954b05c54da3605611b2d5a55e: Andr.Trojan.Donot-9778204-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.30_ESET-APT‑C‑23_Android/540bbe4d507b0e3691922d97fe1ff62c4e7668b3f1b6c3997083a1c49615e068: Andr.Trojan.AridViper-9994569-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.30_ESET-APT‑C‑23_Android/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.30_ESET-APT‑C‑23_Android/8f176a3b9460c221f967575ab24c5e829181b0e25ff6ccdf6de91f129ba642d8: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.30_ESET-APT‑C‑23_Android/2ed77be505cd246ca41bba218d8a5c59ae6049eff2c3b72ca91433ad4fe3b103: Andr.Trojan.Donot-9778204-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.30_ESET-APT‑C‑23_Android/b2396341f77b9549f62a0ce8cc7dacf5aa250242ed30ed5051356d819b60abff: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.30_ESET-APT‑C‑23_Android/649977c22c82c200e9fb9771982e682e684ba7f686bf470c9b65151484a0c519: Andr.Trojan.AridViper-9994569-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.30_ESET-APT‑C‑23_Android/29ac6e5719aeb0cba63b837ca2cbdb6483044ed5a885c457f6858ae61e2dd4da: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.30_ESET-APT‑C‑23_Android/7d3a00c93cbf15df1afab245f9be47feb27c862d51581dadaec50378bee7d5fa: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/efb533249f71ea6ebfb6418bb67c94e8fbd5f2a26cbd82ef8ec1d30c0c90c6c1: Win.Trojan.CredTheft_Win_EXCAVATOR_2-9805052-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/69f998bd67a5dbfd79bcc44f0cf2284ed61fac9bfaba3d3b4dfb19a57baa29c5: Doc.Dropper.Agent-6872523-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6: Win.Countermeasure.Sunburst-9809152-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/25e755c8957163376b3437ce808843c1c2598e0fb3c5f31dc958576cd5cde63e: Win.Exploit.Deepscan-9790942-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77: Win.Countermeasure.Sunburst-9809152-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/c15abaf51e78ca56c0376522d699c978217bf041a3bd3c71d09193efa5717c71: Win.Countermeasure.SUPERNOVA-9808999-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134: Win.Countermeasure.Sunburst-9809152-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/0340043481091d92dcfb2c498aad3c0afca2fd208ef896f65af790cc147f8891: Win.Trojan.HackTool_MSIL_Rubeus_1-9805032-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/82cce26c60a5105e6caf5ac92eabb3dedcd883cd075f2056f27b0ec58aefaaa6: Win.Countermeasure.LoaderWinGeneric-9804845-2 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/d9882283ee2dc487c2a5fb97f8067051c259c4721cd4aea8c435302fe6b274c4: Win.Countermeasure.LoaderWinGeneric-9804846-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/a25cadd48d70f6ea0c4a241d99c5241269e6faccb4054e62d16784640f8e53bc: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/078403b4e89ff06d2fe2ed7e75428a381f83ffb708dbd01b0220767498947f0c: Win.Countermeasure.LoaderWinGeneric-9804846-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/c0621954bd329b5cabe45e92b31053627c27fa40853beb2cce2734fa677ffd93: Win.Countermeasure.HackToolMSILModifiedSHARPVIEW-9804826-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/1cf5710e500a423b84b51fa3afdd923fe0a8255c5817d3238175623e2ebbfad9: Win.Trojan.DUEDILLIGENCE-9804815-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/a022820a62198fa3e3b89749b38db1cc3a09136524682fb99a3ce36652725065: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/d3c6785e18fba3749fb785bc313cf8346182f532c59172b69adfb31b96a5d0af: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.08_FireEye-Solarwinds-Hack/b6ef03aec5d10e371f0b06c661036d838ef55fa7dc75cf91fca3622bdefa8140: Win.Countermeasure.LoaderWinGeneric-9804846-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.02_ESET-Turla_Crutch/0010ccb822538d1881c61be874af49382c44b6c9cb665081cf0f672cbed5b6a5: Win.Trojan.Crutch-9833417-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.02_ESET-Turla_Crutch/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/7e2b1bbffa7f05e7bf57ee60d162ef1e6f83b2e3fb5aa0da985add67af517901: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/2826815873d90ad38c5aeeed57c09385d6ad9a3cebaa18757f557a698e9f92b6: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/b8425a5c05c01c1294ce75719049e1b4eab32c34cabe456c281f110976cf2ade: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/c2695ef5f3a400219caa2347f5b914c15d74a133efa24d96d121acfa7f95a67e: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/0cfe9d9131d8c5ac7d39bce9700d92b7de6a3e7bb0b7d72b17fd29f7eb86d93f: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/14e48d3aa7b9058c56882eb61fa40cf1f52614fe8feb8a43658ad02a570147e0: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/33b480094df24e4c991ba9db84160ec84de2a2b597ae691bc95f74ba36b3e63f: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/adb8bfa6e227847c2ffa6e1c97d08280081426480ed9b2ce6af26a23fbd1334c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/4b03409184b3206f7e3a43ff9f7713722c9acd871dd961d918f66e65d92f43f9: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/2e85ca515acbfd4b03f93218764e3166af04eb6f75de14ce4dfd97d6ef259579: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/0fdcea00a78e0263caa45205d09b107bd50a9696f59a66951e8b9afc42d54e02: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/230de38fc10b7c07af5aceb6ebbafa80c45c2b9123a7a167f85e8a05b5cf0db7: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/980d2f2d658324bb85ae044de91feb23a276e4ad04850588531e2f916a1696a2: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/4d7f654cf507af2cc4ecfa6e49ea61d3e8b474a2c454ac0cfc06c124ccd90be2: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/2b48626c3a57c2bf980b9b91b00b0947630e59d03f613c6ae8c3177eb626e752: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/cdd2cb01c8afda2b2ce77cfa257dd6e0bdd4aecc9e7be5f4c55c34d424376ed9: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/2e7808e3cfebad45815b3de7b91ea39970e8d99c607c71cb70052cee0e140db4: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/c093c3e366ef0d4bd759a467842868cb1dd974c17e5230499707ec5bee5af304: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/2c0df314dcdc9fa161f5f31369037f747a794e26cee6f8835cc37eef3077f782: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/29759388b83c2141bdc224ce1ba348fe3778ffec86b2716bcd6eacc839363737: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/b73df2299f1b61629d40e1896efdf170a6c6b44e3fd3f833fad081fcf08a3cbd: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/b47f8eda04def2df3d2c58199af5fdded338d08bee8fb3636f441a46bb3ff119: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/fc189b913bfd5995a7ed5c4e8a811ad237f7b973e120a25baccffbf4ea1d3838: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/25da7cc807578394716925afd30a9cc9d543e2fa2a2b25ce8f52160b3b4bc073: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/8f939e65e9ffedd16ae86687e154adbe607d56950d082778300039283f2f8330: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/aa9627a62eb193cc40f2a5ffd259035a43540b2abd634c80f0d988f7588fa23d: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/c7c3e039700bc6072f84ff99ecb22557e460dcd2214539938a6a0ef73b9caa88: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/7eba9f6f9774c87fafc4aba403821fae73a50d387624d039d1b296cf0befca73: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/a37ed89053e6a686ea227c25db5b472654e49def03b1eb69b613e5b831822996: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/dfcdcabd576d8717dcc570a2820947e385f0e10bdb2d9a332e7a5823ea51b3ac: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/e1d1d5e1c91d0f4142247b45fb18c0c7dcc94719f4340cf6443100364802aeae: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/e3d63dc50b6a477e0361e71f80e133337bab1d11e809387e8e3a058614780b21: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.05_Kaspersky_mosaicregressor/64eabfc0612ac82eb80b8e955549b6a01899b712a99243d116e087828ca9e070: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.06_Volexity-OceanLotus_Fake_Websites/7fd58fa4c9f24114c08b3265d30be5aa8f6519ebd2310cc6956eda6c6e6f56f0: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.06_Volexity-OceanLotus_Fake_Websites/230ac0808fde525306d6e55d389849f67fc328968c433a5053d676d688032e6f: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.06_Volexity-OceanLotus_Fake_Websites/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.06_Volexity-OceanLotus_Fake_Websites/cbca9a92a6aa067ff4cab8f1d34ec49ffc9a06c90881f48da369c973182ce06d: Win.Trojan.CobaltStrike-8091534-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ClearSky-Pay2Kitten/483fe88d70cb09361c27468b97b7f96bd667d8c915c9f004a27d4260367d551b: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ClearSky-Pay2Kitten/5bae961fec67565fb88c8bcd3841b7090566d8fc12ccb70436b5269456e55c00: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ClearSky-Pay2Kitten/d2b612729d0c106cb5b0434e3d5de1a5dc9d065d276d51a3fb25a08f39e18467: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ClearSky-Pay2Kitten/ea7ed9bb14a7bda590cf3ff81c8c37703a028c4fdb4599b6a283d68fdcb2613f: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ClearSky-Pay2Kitten/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ClearSky-Pay2Kitten/55b9264bc1f665acd94d922dd13522f48f2c88b02b587e50d5665b72855aa71c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ClearSky-Pay2Kitten/6467152f27ba0d02dbd27e20403d8c5cdd86258df927a9cdaa9630cfc1fd3883: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ClearSky-Pay2Kitten/a2440df2bf11c2882d139bddf5a33bfd63dcb4b82994ac2daf7c7f08b7170647: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ClearSky-Pay2Kitten/3e35a2a6b58853ab7443aef40d22dc37c3d94848ec9f5b9ca27c1892082b4f07: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ClearSky-Pay2Kitten/48edd2cd9b09de0088c34020aea0bf40e226b22d629303ecee61a19d33ef3347: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ClearSky-Pay2Kitten/63e81ac3c8e438221a088bc765158006cc99b2894d4340cf73305c43d67e9627: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ClearSky-Pay2Kitten/df86cd16a3008dba00590edae31d1313bd92528aca92c4f4ea7f24000ba62547: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ClearSky-Pay2Kitten/4a1fc30ffeee48f213e256fa7bff77d8abd8acd81e3b2eb3b9c40bd3e2b04756: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.27_PTSecurity-APT27_Polar_Ransomware/ad9093adf832b6f86d6001331547f0072de21419fe40e6446c3525213add1413: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.27_PTSecurity-APT27_Polar_Ransomware/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.27_PTSecurity-APT27_Polar_Ransomware/added14aaf3df22b63dcd1c53f02f9de4f9c1f88869e93381305568a87e18cb6: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.15_Clearsky-Operation_Quicksand_MuddyWater’s_Offensive_Attack_Against_Israeli/6d065532daab06c0b15c73d808c03b8497bb80fdd19c012bfc8771905f1f4066: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.15_Clearsky-Operation_Quicksand_MuddyWater’s_Offensive_Attack_Against_Israeli/b154d3fd88767776b1e36113c479ef3487ceda0f6e4fc80cef85ba539a589555: Win.Trojan.MuddyWater-9937746-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.15_Clearsky-Operation_Quicksand_MuddyWater’s_Offensive_Attack_Against_Israeli/93373b2c8607a6bf9e267972271bd713caea2d43c6dc22ff29462a75299fa0ef: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.15_Clearsky-Operation_Quicksand_MuddyWater’s_Offensive_Attack_Against_Israeli/a1282dde503e911d5653e1d9d1214e4780e61c96d1530c3a1be22d88a81dcf5f: Xls.Dropper.Agent-9746411-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.15_Clearsky-Operation_Quicksand_MuddyWater’s_Offensive_Attack_Against_Israeli/8bbed7013e339cca41cf85a0788ef0fc250b54515a038eff6d4838a16be047d7: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.15_Clearsky-Operation_Quicksand_MuddyWater’s_Offensive_Attack_Against_Israeli/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.15_Clearsky-Operation_Quicksand_MuddyWater’s_Offensive_Attack_Against_Israeli/19ec3f16a42ae58ab6feddc66d7eeecf91d7c61a0ac9cdc231da479088486169: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.15_Clearsky-Operation_Quicksand_MuddyWater’s_Offensive_Attack_Against_Israeli/9e65ccf31a2413bf43695ba04c5402ed235ce456563758d6e3a3ad2126e3734a: Xls.Dropper.Agent-9746411-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.15_Clearsky-Operation_Quicksand_MuddyWater’s_Offensive_Attack_Against_Israeli/01515b6567e226ac1e9727ee5c25db0ed78652dd50abb0cfda33abc82134f97c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.15_Clearsky-Operation_Quicksand_MuddyWater’s_Offensive_Attack_Against_Israeli/ba0c5d1f76906689009dd751cb605e76da1b31f7b4ab3d61f187add10f8189d3: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.15_Clearsky-Operation_Quicksand_MuddyWater’s_Offensive_Attack_Against_Israeli/92bbd427ad2daf5644c5671b6dc369e02c00d03e4a13eadc2bb3025c0cdf3ec2: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.15_Clearsky-Operation_Quicksand_MuddyWater’s_Offensive_Attack_Against_Israeli/61072ae06a5e25194e7bf6297026b54ae52fcfc14787ead8866866d8098a1fa3: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.15_Clearsky-Operation_Quicksand_MuddyWater’s_Offensive_Attack_Against_Israeli/9b8d513298fdc349c381ed11d0c5cfce1eab36b9a81f6a80371ba499a49d0607: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.15_Clearsky-Operation_Quicksand_MuddyWater’s_Offensive_Attack_Against_Israeli/46ecf53e18000f4ea1115b5bb661faa5ec5d61517f7ef073c346b4867606014b: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.15_Clearsky-Operation_Quicksand_MuddyWater’s_Offensive_Attack_Against_Israeli/56cf06c3230aefea1d85b42a59fb42d514681f35350aa907e84603b2f426ae88: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-North_Korean_RAT_FASTCASH/39cbad3b2aac6298537a85f0463453d54ab2660c913f4f35ba98fffeb0b15655: Win.Trojan.Alreay-7189192-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-North_Korean_RAT_FASTCASH/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-North_Korean_RAT_FASTCASH/5cb7a352535b447609849e20aec18c84d8b58e377d9c6365eafb45cdb7ef949b: Win.Malware.FastCash-9748830-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-North_Korean_RAT_FASTCASH/129b8825eaf61dcc2321aad7b84632233fa4bbc7e24bdf123b507157353930f0: Win.Trojan.Alreay-7189205-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.01.27_CISA-Supernova/c15abaf51e78ca56c0376522d699c978217bf041a3bd3c71d09193efa5717c71: Win.Countermeasure.SUPERNOVA-9808999-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.01.27_CISA-Supernova/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-North_Korean_RAT_ECCENTRICBANDWAGON/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-North_Korean_RAT_ECCENTRICBANDWAGON/efd470cfa90b918e5d558e5c8c3821343af06eedfd484dfeb20c4605f9bdc30e: Win.Malware.EccentricBandwagon-9748740-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-North_Korean_RAT_ECCENTRICBANDWAGON/9ea5aa00e0a738b74066c61b1d35331170a9e0a84df1cc6cef58fd46a8ec5a2e: Win.Malware.EccentricBandwagon-9748740-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-North_Korean_RAT_ECCENTRICBANDWAGON/32a4de070ca005d35a88503717157b0dc3f2e8da76ffd618fca6563aec9c81f8: Win.Malware.EccentricBandwagon-9748740-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-North_Korean_RAT_ECCENTRICBANDWAGON/c6930e298bba86c01d0fe2c8262c46b4fce97c6c5037a193904cfc634246fbec: Win.Malware.EccentricBandwagon-9748740-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.06.22_FBI-FLASH-MI-000124-MW/d150feb631d6e9050b7fb76db57504e6dcc2715fe03e45db095f50d56a9495a5: Win.Malware.Agent-7761803-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.06.22_FBI-FLASH-MI-000124-MW/15e029c3834435150c76741e714540fcb799662db8cc2c61ba4ef192a781727b: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.06.22_FBI-FLASH-MI-000124-MW/e4e5c3a6c15beff4e17117075e2c0bd65f176d81e6885134d2b4d97c20d4773a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.06.22_FBI-FLASH-MI-000124-MW/d56bb81d0f8e4de24dc12a7d963ed95eec36291c71a29d6b434e72f098cc1131: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.06.22_FBI-FLASH-MI-000124-MW/2c464648ff97fd39dab054d0c3e1bd249e244fcc975b697e312796669c7763f1: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.06.22_FBI-FLASH-MI-000124-MW/f7b0d6d95f2644e32c22eb3e681e33387ac27d71dd73eee3ff37ce77985ab177: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.06.22_FBI-FLASH-MI-000124-MW/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.06.22_FBI-FLASH-MI-000124-MW/5b0ba8d58a64630cb5fcb80e72520bd2ef6f322003fa2588d4d594620e6685ae: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.06.22_FBI-FLASH-MI-000124-MW/43670ae43df9e361fa15f09f611da32db104ee207ed5af3e7e7f098ad82a68e0: Win.Malware.Agent-7761803-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.06.22_FBI-FLASH-MI-000124-MW/f681c1f8c12956a20c27beb9be1112374fefc7651884d7dd92010b40db1e7bee: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.06.22_FBI-FLASH-MI-000124-MW/3e1fb4ff54112a78d8bdccbe596c119201f079010c4f69cdf2c99385e7aee3dc: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.06.22_FBI-FLASH-MI-000124-MW/da26ba1e13ce4702bd5154789ce1a699ba206c12021d9823380febd795f5b002: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.06.22_FBI-FLASH-MI-000124-MW/7b98cd3800dede6537cf78e7b61eeeda71d251dc97c70cb7c2135c6aa310ab7f: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.06.22_FBI-FLASH-MI-000124-MW/47f1570e770d236836c0d3cb50755b6dd91e1be58a0d3e61507c7baacfd27784: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/946b706080ad6bafeee90149255755e013eedb22a58711a70bb9ffec934228c2: Win.Trojan.Anchor-9800038-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/fb75261336c28d5c4798fe92463a249fc92bc10cb7f1ad4f14041bdf639a7315: Win.Trojan.Anchor-6691625-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/92796e61f7a47521210edfc5e7e2004975ede13b836787b07dde85f80750b0ff: Win.Trojan.Anchor-9800038-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/47a16afd03cc206a96000d3d5c6d34b3167abda5ffb8458a601e6b079a948dc5: Win.Trojan.Anchor-9800038-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/fdfa3d13a6fc905eebe1e8370e43510f40379360d497dd48d2f64f983bb481b1: Win.Trojan.Anchor-9800038-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/18d347001057c68c4f2ad1d2f5af73e2dfa69aa46466fa43b40d7da360b79c01: Win.Trojan.Anchor-6691625-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/5de47f786534c1fbe8173ac71ab48602fe3462baed77eea70f2b59231ffa69c0: Win.Trojan.AnchorbotDNS-7509406-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/b1e703bd4df1d3e85ff97b638357b8c96360c9a658930473d37b733dbed51e02: Win.Trojan.Anchor-9800038-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/73d1283221b18ac00cdd1929d75aefe1275757cac85115a1b2b4bedd9b6d633f: Win.Trojan.AnchorbotDNS-7509406-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/9067fa96c3f7249241d50425f1198a36c6c23578f14bf501a1664a501f088d69: Win.Trojan.Anchor-9800038-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/2c446cad1e15d82521022281b81f905867e33e9ae33c3e7e4959972d40230775: Win.Trojan.AnchorInstaller-7509421-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/0816d66320d221de576c8a9e6af1b05c7656832939876dd99bb8b40029fe694a: Win.Trojan.Anchor-9800038-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/d5440b90f2392f378b84be359201cb2870681d9483ec692bd16a8b00ec22122b: Win.Trojan.Anchor-9800038-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/9469f92e61d75e88ccc854ac6febd2df4a2a5ee7ec4ecea152b82e05df905325: Win.Trojan.Anchor-9800038-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/9f2a5f2ca86b24191370315c30a78f8adda1a04e3acac4edb3ac8f1cdc58c20c: Win.Trojan.Anchor-9800038-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-Ransomware_Healthcare/7e00743d43b550b6b0d3927a551eba2f0c87d458fb1b546249a092c8ebc6c7b2: Win.Trojan.Anchor-9800038-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-MAR-10310246_Powershell_Backdoor/134919151466c9292bdcb7c24c32c841a5183d880072b0ad5e8b3a3a830afef8: Win.Trojan.PSComRat-9785228-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-MAR-10310246_Powershell_Backdoor/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-MAR-10310246_Powershell_Backdoor/44d6d67b5328a4d73f72d8a0f9d39fe4bb6539609f90f169483936a8b3b88316: Win.Trojan.ComRat-9785229-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-MAR-10310246_Powershell_Backdoor/a3170c32c09fc85cdda778a5c20a3dab144b6d1dd9996ba8340866e0081c7642: Win.Trojan.PSempireInj-7013548-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-MAR-10310246_Powershell_Backdoor/00352afc7e7863530e4d68be35ae8b60261fc57560167645697b7bfc0ac0e93d: Win.Trojan.ComRat-9785229-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-MAR-10310246_Powershell_Backdoor/166b1fb3d34b32f1807c710aaa435d181aedbded1e7b4539ffa931c2b2cdd405: Win.Trojan.ComRAT-9785230-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.02_FireEye-Live_Off_The_Land_UNC_1945/3c2fe308c0a563e06263bbacf793bbe9b2259d795fcc36b953793a7e499e7f71: Win.Trojan.Agent-6027057-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.02_FireEye-Live_Off_The_Land_UNC_1945/c94fdfedd40e0b194165294f484977947df9da2000cb8fe02243961384b249ff: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.02_FireEye-Live_Off_The_Land_UNC_1945/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.02_FireEye-Live_Off_The_Land_UNC_1945/7d587a5f6f36a74dcfbcbaecb2b0547fdf1ecdb034341f4cc7ae489f5b57a11d: Unix.Trojan.UNC1945-9911222-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.02_FireEye-Live_Off_The_Land_UNC_1945/14296b21c6e2ba9d56759e2da4b09f58148852ddeefa8fb76a838a30871679a7: Unix.Malware.SMBAgent-9911804-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.02_FireEye-Live_Off_The_Land_UNC_1945/f568bb92f128ec3bb5e0f34b237aef8537b0e0e5a61fb58317ac091e8fde0da2: Unix.Malware.Agent-6988174-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.02_FireEye-Live_Off_The_Land_UNC_1945/632be2363c7a13be6d5ce0dca11e387bd0a072cc962b004f0dcf3c1f78982a5a: Win.Malware.Mimikatz-9911221-0-9911805-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/e59522181911b0fdd183e3451b86bba3454b9c7e18abb895e44ed4c233b3c2dd: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/60f0e5a448dd3a4581a6dfadc375cd5619a1ab2901bd108dcc85f8d77d074dde: Win.Trojan.Remexi-6979034-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/590c33ea344a2ee095004d4069122f0afccbfceee422bb5d2838c32a9026a86a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/9ce13cd2bd4539852a6b5a1cacd98c7d07e4fe5cb5423a74a5141b84511b4e28: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/c8bc6144fe3c97a062572e7d1c3db5ccd1c1f6ea9ceaac4a492aa31befd9e0c9: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/d6ac1d0599bd4972263f0db15815f753dff1644095ba862897eaf50dec9a1f1c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/15b61b51d46bcf8ae5999d0ae422ca89b2a1aba0c90c818d5c8e419aaa0af831: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/0ee32e3ea3d83da9df6317d7c8c539f0f3622af82ef242d74fdca1e5d4ee427f: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/ea9070fc1fe5ea500ef0de631f478d8881d4c9f960cc7730d79d8d33a427fdbe: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/0edf56c79475442bdb36cc10a7b50ee927a59053e8a3945018bf5b3d849581e0: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/0f7759714a57635ec98ab5453e2629e5f6f31a3f46565243addb20f6d0aa7d2c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/ad48423b4392462bac6b8e936d671532567e7f745915ba21288bb8ed675bb39f: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/66c51484b653277a5d40cbd2738b33cba8fb5ccc741f0c24634944ec4cac1142: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/a1481b251328b50d268b815debd614f539039e6e7012c90b66daee717712d524: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/333d4455b920c44d278767783aff3383419872f802cc254c105702604d563aea: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/9f30986f2dc078cb827f61605186c25b938378f54d97028e65276a2c85abf3dd: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/fc2c7cfde5175a5dfcb3519d65b7dcf8d1303b0c2a3ee92d0a7ba4400940974b: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/3b193238eca12dacad1dbd55edd31da7d8936a6cbf916278d4e62b145f1ff43c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/f845276dfd9d5753f659dab8c12a38eba1f71fdc16b6faae1316622dc9cab455: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/03532fd04cf596cdd0feaa3083dbbba8a726739ea03a43fb73c4577a9dc45c1a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/96f8c17daa65c4ad24838d3852caa68ffb49fc6b2204b011ec28241d22cc7733: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/875d078761e941c634a982c1eb259ab739c0a925f34f6da6c6a7211507dfcd0c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/c2ac4367d1a7773e3c77ba4f92be0690b2ac3706be17b3ff87a1e5180a29795b: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/3a39f9087fc5cf0aa1d2caed1bef591e3533dd3b7b2a262c632b2737854c8464: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/ded249291d46651cf63618f6bd071dae18e651e7d4ac6bce5ae27c5b6a068b9f: Win.Trojan.Remexi-6979034-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/93a973d625fe697e7004e90db45c872660ece35a97816355aadf545801ce40bd: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/5b15fe859870c06fa0564faf0901543419640e44d2b392f24102b3e532a94e4b: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/eb8883d23bca4d9be3423db41b417c2dce4e1ba5cf2a317fc2d460d99006765f: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.17_FBI-FLASH-ME-000134-MW/bee25b20cddb75b90de027624b454aa3a3c8eac052898226c74a7d73822553fb: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-MAR-10310246_ZEBROCY_Backdoor/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-MAR-10310246_ZEBROCY_Backdoor/0be114fe30ef5042890c17033b63d7c9e0363972fcc15a61433c598dd33f49d1: Win.Trojan.Zebrocy-9786071-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.29_CISA-MAR-10310246_ZEBROCY_Backdoor/2631f95e9a46c821a701269a76b15bb065764cc15a0b268a4d1eac045975c9b8: Win.Trojan.Zebrocy-9786071-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.19_VinCSS-China_Panda/f659b269fbe4128588f7a2fa4d6022cc74e508d28eee05c5aff26cc23b7bd1a5: Win.Trojan.Smanager-9822863-2 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.19_VinCSS-China_Panda/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.19_VinCSS-China_Panda/6c1db6c3d32c921858a4272e8cc7d78280b46bad20a1de23833cbe2956eebf75: Win.Trojan.Smanager-9822863-2 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.19_TrendMicro-Operation_Earth_Kitsune_SLUB/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.19_TrendMicro-Operation_Earth_Kitsune_SLUB/833070159999aa255420441ba2f2f188ab949b170d766b840a5be0885f745457: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.19_TrendMicro-Operation_Earth_Kitsune_SLUB/93bb93d87cedb0a99976c18a37d65f816dc904942a0fb39cc177d49372ed54e5: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.19_TrendMicro-Operation_Earth_Kitsune_SLUB/59e4510b7b15011d67eb2f80484589f7211e67756906a87ce466a7bb68f2095b: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.04.15_CISA-SUNSHUTTLE/94c58c7fb43153658eaa9409fc78d8741d3c388d3b8d4296361867fe45d5fa45: Win.Malware.SUNSHUTTLE-9838970-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.04.15_CISA-SUNSHUTTLE/e9ddf486e5aeac02fc279659b72a1bec97103f413e089d8fabc30175f4cdbf15: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.04.15_CISA-SUNSHUTTLE/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.04.15_CISA-SUNSHUTTLE/4e8f24fb50a08c12636f3d50c94772f355d5229e58110cccb3b4835cb2371aec: Win.Malware.SUNSHUTTLE-9838970-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.04.15_CISA-SUNSHUTTLE/cb80a074e5fde8d297c2c74a0377e612b4030cc756baf4fff3cc2452ebc04a9c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.04.15_CISA-SUNSHUTTLE/ec5f07c169267dec875fdd135c1d97186b494a6f1214fb6b40036fd4ce725def: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.04.15_CISA-SUNSHUTTLE/b9a2c986b6ad1eb4cfb0303baede906936fe96396f3cf490b0984a4798d741d8: Win.Malware.SUNSHUTTLE-9838969-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.04.15_CISA-SUNSHUTTLE/6b01eeef147d9e0cd6445f90e55e467b930df2de5d74e3d2f7610e80f2c5a2cd: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.04.15_CISA-SUNSHUTTLE/bc7a3b3cfae59f1bfbde57154cb1e7deebdcdf6277ac446919df07e3b8a6e4df: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.04.15_CISA-SUNSHUTTLE/f2a8bdf135caca0d7359a7163a4343701a5bdfbc8007e71424649e45901ab7e2: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2021.04.15_CISA-SUNSHUTTLE/0d770e0d6ee77ed9d53500688831040b83b53b9de82afa586f20bb1894ee7116: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/3da95f33b6feb5dcc86d15e2a31e211e031efa2e96792ce9c459b6b769ffd6a4: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/050a45680d5f344034be13d4fc3a7e389ceb096bd01c36c680d8e7a75d3dbae2: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/ab5b59331a1beeb857dc3476c3c3906869c66f4d281400bc079b07cd811959c4: Win.Dropper.Autoit-9733757-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/707e27d94b0d37dc55d7ca12d833ebaec80b50decb218a2eb79565561a807fe6: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/2d03ff4e5d4d72afffd9bde9225fe03d6dc941982d6f3a0bbd14076a6c890247: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/e869c7f981256ddb7aa1c187a081c46fed541722fa5668a7d90ff8d6b81c1db6: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/82ad34384fd3b37f85e735a849b033326d8ce907155f5ff2d24318b1616b2950: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/284a0c5cc0efe78f18c7b9b6dbe7be1d93da8f556b432f03d5464a34992dbd01: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/2118c79dbb6767549cf9aa12367faa8f55281d4299d0a3f4c2f40c1686d8016a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/e67d6094dd5fa5ad678a36a020225c83adf97ac995c23893ffcc476f7d1f8481: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/2b70045d4878a20b8fca568c0b3414f2d255f3b2a7dfed85c84cf88d1b2f4e74: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/0de10ec9ec327818002281b4cdd399d6cf330146d47ac00cf47b571a6f0a4eaa: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/23aa2347bf83127d40e05742d7c521245e51886f38b285be7227ddb96d765337: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/5f5af4762c073234fef6bfeaa3b9f6a04982e82a25e540116aa1f9e38223ae2b: Win.Keylogger.Bestafera-9958150-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/3c8979740d2f634ff2c0c0ab7adb78fe69d6d42307118d0bb934f03974deddac: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/479742e205e1fcd9dadc600ee72f9c1e03ba6399d0a6535e558026d0fbbba07a: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/db1c2482063299ba5b1d5001a4e69e59f6cc91b64d24135c296ec194b2cab57a: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/2115d02ead5e497ce5a52ab9b17f0e007a671b3cd95aa55554af17d9a30de37c: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/b42d3deab6932e04d6a3fb059348e608f68464a6cdc1440518c1c5e66f937694: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/5b8b71d1140beaae4736eb58adc64930613ebeab997506fbb09aabff68242e17: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/00bc6fcfa82a693db4d7c1c9d5f4c3d0bfbbd0806e122f1fbded034eb9a67b10: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/0d65b9671e51baf64e1389649c94f2a9c33547bfe1f5411e12c16ae2f2f463dd: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/80fb33854bf54ceac731aed91c677d8fb933d1593eb95447b06bd9b80f562ed2: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/4e77963ba7f70d6777a77c158fab61024f384877d78282d31ba7bbac06724b68: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/eab20d4c0eeff48e7e1b6b59d79cd169cac277aeb5f91f462f838fcd6835e0ac: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/4be7b1c2d862348ee00bcd36d7a6543f1ebb7d81f9c48f5dd05e19d6ccdfaeb5: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/b3e991914ca782b0b6f6a96d7df6d02e2388079a12e76dfacb47155fbff1084d: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/d08e7464fa8650e669012056548383fbadcd29a093a28eb7d0c2ba4e9036eb07: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/b61fa79c6e8bfcb96f6e2ed4057f5a835a299e9e13e4c6893c3c3309e31cad44: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/a6f4a0400fc7eee60610c0e113802d5aa544d462d2141b93203a0f9f380f0a16: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/b2ec6aeb55eb0acf12be51185e4d6b3e67e9f3931a0ce0ebbc5849f52c0d8fd3: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/ae254ab021632cb583071079b2be8af62ccfc232c687a515a716ea17bfa0db9b: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/445ea69e361e8efd7e00cfc6c6204cb7cece7415b4eb6539c4ebf5e6b020f702: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/3884ac554dcd58c871a4e55900f8847c9e308a79c321ae46ced58daa00d82ab4: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/eda6d901c7d94cbd1c827dfa7c518685b611de85f4708a6701fcbf1a3f101768: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/9c1ebd6f1800194b29720f626d51bf8f67310c4c59e67cd12e398dde234872ca: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/83e0db0fa3feaf911a18c1e2076cc40ba17a185e61623a9759991deeca551d8b: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/094e318d14493a9f56d56b44b30fd396af8b296119ff5b82aca01db9af83fd48: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/4eced949a2da569ee9c4e536283dabad49e2f41371b6e8d40b80a79ec1b0e986: Win.Trojan.Micropsia-9811765-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.16_TeamCymru-APTC_23_AridViper_GnatSpy/b599b0327c4593a06a2e05a3373ee84c37faa6e4fd6f7e5c24544aa9192e0b43: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.03_CISA-Chinese_RAT_TAIDOOR/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.03_CISA-Chinese_RAT_TAIDOOR/363ea096a3f6d06d56dc97ff1618607d462f366139df70c88310bbf77b9f9f90: Win.Packed.Taidoor-9209834-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.03_CISA-Chinese_RAT_TAIDOOR/6e6d3a831c03b09d9e4a54859329fbfd428083f8f5bc5f27abbfdd9c47ec0e57: Win.Packer.Taidoor-9209869-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.03_CISA-Chinese_RAT_TAIDOOR/0d0ccfe7cd476e2e2498b854cef2e6f959df817e52924b3a8bcdae7a8faaa686: Win.Malware.Agent-9376986-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.03_CISA-Chinese_RAT_TAIDOOR/4a0688baf9661d3737ee82f8992a0a665732c91704f28688f643115648c107d4: Win.Packer.Taidoor-9209869-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/fe15c79508885b5288c5cf93708d5b40eab05877cb9b1d954ab7e814a20c7978: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/a713a2749e9791243a89471a2603bf1f32ec11c9179771ca46fb5583b8412cb0: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/b26b024fa7be56d2b2e3815d8e97434f95b30bf25cda4259d3e20c14a92bd8ec: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/41d3378e99a410756170056e4941e86325826c45389ae18172114be535a73355: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/a60f5b41251d0bf126fc3c2b836de7d59aa608fd6d37726d71960dd408575512: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/58018aac8beb89271ef88d0fd4ada64079e1af09fad441e7b39a2463f95602f4: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/013edd19a9e796d54b82dc34a400a0981c5e17fd65a235dd45231e7ef06ee53b: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/9c75a6957a0294d929787b6e8217e4127b77cc2702c19ddb8e0b6319dc3b5127: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/3ff1864e5fe1ebcce0a60c9594c9ac9f2eedd94367680dc3d77ca39a0b0e3d06: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/bfb2a7f8e7396f8edee131eca9715ab8b2fc957478b7cf0d58840a707b718e09: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/dc627b6419366cdf50eccfa3d1995c111b71112e5abb725b6096b9e0026af395: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/a4fcc308e9a364d29057cc76dbe6a8c32ce24a1dbae5c0b6306471f61cbefb29: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/4ea4671ef8678197dbc82a584832d0dd23d67b0427873ac610bb266d0678f305: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/3310c0b2fd8a8d96288eb241f6948cfa0f15b39d2e6ca6687aab45dc6fccf9fc: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/b778ab921e7268334efdc8aa371909c4bbd0f1621e39ab9d7e37167fe448581e: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/65a3dec040bddf615bd2ce8c9f08ff074442fb521ac97b869e51d35a417719e9: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/5a8f53f7c65af0cb3f269f8653405cd7bd98fae5c256e6264e5ebc5f75ea6c08: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/4c0c33fff8d4929f7a0d742f1d251b61794b185538b8ceb4939283d1b3d73795: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/d3bb736d8a8b500c75ad853392afac37fd8cd519b274db4cba9451d2f1899059: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/f211a92c2e215c2691006407bc919a892dd998120d83d333f2295059cd3c1c60: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/fdfcf1790faf4dc97ea7c5d84c76b7abbdb080ab931777a6259b09ae0166fcae: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/512e28afe8d32008cd8a9e95c938d2551689098ea93f75ba2a23c246248d7124: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/41629c54b2f3dd68897c04a8ed10f7c78534ba67a048da75885a857f68b37624: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/dff78dc100c1efd116de1a1d9e0b9169380801a1e7e864d63dc81a263f8929e8: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/1b8cd7c93dce63878dadae0cf77482ae367477841a4604c6a842158466790737: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/af31cc534aa49f02e6c18a8cf3fd4c9cf366d462ee7caaf8c2a461405382073f: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/08b61faed24b35224a505dd9cbf39cd59776627de7991161d376134a854c3227: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/d148562a49a09333b2b02d13e12b183d4c3fcf23fbb024d4e0b440631a3a3663: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/0af51a0ffb5798fb90a14070809fa9909195068ad1b91c1cadf5633b521e5132: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/07247bb81cca445e0df110d73ea6bf7eb327cc99b614b99dfbcb5632025c99a0: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/37f40214d2f150597c52cb868c1e2f723d9c2d3155ab18ab2f1279eaf09bdf71: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/b7730f9a05be8a0f25a3979b2f8d2fed791340a32385a9fd37d0e8b81119627d: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/409da7a4f191e37d3d3aa8f36e8c3789fc998b63241a5f05c6816e54ed7dcd3a: Doc.Dropper.Agent-6412232-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/e4e210aedf8120a4c765bd340bd78b4a84f7ee486314132a8364fd417f4fa128: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/63a655fde88ea26c73cea1e1764305e44203db771f64155b3b3e3d805203f65a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/023151cf0fb47d758946fa85a952a2b6758fbbfb762083a01bb70c5a6d96c781: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/ee295bd3669ddaebcd9be020debd1853c6eb7029c8017734e44c8cdce5e15241: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/de339d3fe5acf83a0df5991bcce02574e1f2c4749b6d0e8f9edc563ef4f91d79: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/b65676321e2138affd5c38a1f2b882f19ac1ca9bf414b6f3d44e35c43c36ae78: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/f9f4aaba897b15f8c77c46f2efb0672b044b7cb79dfd84eac4a41e2f1cee1344: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/2d161588e7314ed268144b14bf00ff02b4b875f140d5ff8ba51ed50318e4b603: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/986a9bd00d5b22431ab949916828aa25542afae4875b5cee00f703424b5ffb34: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/e8f785efb62fbdf31a12012d38798301329e5262090991152e94342ef6dfa276: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/e9bf479de992e8a7cfff4d5d528ec85614e9ad0892feb5f588047dd78decf069: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/815a89091ed15779071bbd6d7ad207a0041a199a562f105595278258880f1e03: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/2c4156bb1d1e3f0abafd5d03fad277f6aab705cb917bc07e05de3170fd80854f: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/085a42cf3705bade9cd970f003f82158563aba06e9152e00928778bc0bd9585e: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/3cedd91bb4c7a5874a3ad286addb0860c33931ceb09d2c18385b7d6cab6953e0: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/e7782cedc67fe36d2fb9005c5bb165c75db9587f3de57b408acb20f6757c7f56: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/509ab695001be527b6c32f2d200067f2d433169e86724336579e08ea44799dd6: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/d8395183c234836b9138d0ade196b8ab60aae6add8c84e004df049a27afe5ffa: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/0e4a8eb2fe861c45071626da24147e922b167efb543e37ace7466c74c1e98be6: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/cec533ecd881f014efa7416867d6e3c6b4362741e97c1609860c6223935dec8d: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/baf779a4a3c9d901eff32a46a004bbb258551cac57d63f0a878d882d2ebbdcf3: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/55c5a17976d253c7c4df1b59973c6104cc336c5482d2063d511d54d512fe04ca: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/b743c9b4968b65577d60d0f3a3c4ae6dd6beedf08a02625836d598f8600a1321: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/e7eeb7781f521ddc5481626a2410ed8cc871809c36d8d8f74af9dd3f8c42505d: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/0f7082926241659fbebd229cdc41abe358be49110a80729b9ee891f2f7dcdf16: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/4415e6240b037f4ac693c7e4a88f5ab2567b68dddbaa8fbfb0b40d37748fa8ba: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/233ee2ea02322d3da68217ab4b51722a4a3aa833667a45377dfd4742d5979c4c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/845a0e5720a6288794a6452adb8d3e7c22f5e6e6b9d4f7481fbd30e3efba4f28: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/b5e571eb492eaee853abdf8b6202f7e543f09d8343a85f467cd4806f8e19a14f: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/09f953c4abfa799e2137887db5e90ddb993f76d20ce22a5ca290e43ae07074b7: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/13e924700a346234eaf2376c61ef0a36c86d94847b232a4ad772e35e0b9a6e87: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/35e3f08ae93a7b4cd3e77a6438e318cd3c3b41efa5def52e5ebd182347e94fd9: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/75972d15f3b2e97d52b9f8a6f42ea85976ed5bb9d609c3bf93ee98d6f4f4a648: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/79baf679e84b02a660e03602ff7aa4c9c86a92e0885b1a298c672db842be258d: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/e444a49b260e815c7d2f3e309f7c7b62226d4f0658fc756ec0aed5effb5226a8: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/2e656ea0b05ffa6cd945848176d1c9fb6174a6253b2a42891487d120358f0bec: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/21118e91cc1537c849a382d87cb113568c5e6d6ce204e8f4592c26f74f713f79: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/3010d9eddb0b97b7f61025d05b543f572c7900170240b56bd9568efb79799f11: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/71085b661fea6cf040586b462b07ce8e0471fb9208c4f69cfd168e168beab6fe: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.18_Checkpoint-Rampant_Kitten/5eb4c94c9927e90426b6227754ae97fca06d468d5512d15773c48817ea082dbf: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.16_CISA-WELLMAIL/83014ab5b3f63b0253cdab6d715f5988ac9014570fa4ab2b267c7cf9ba237d18: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.16_CISA-WELLMAIL/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.16_CISA-WELLMAIL/0c5ad1e8fe43583e279201cdb1046aea742bae59685e6da24e963a41df987494: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/ea04e170198c09cd049ad24a1f16de2fd0be4f3037665125241456ecdda36e59: Win.Dropper.Generic-6503446-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/98d7b9679073126fea9b73f9303c207ef14806da6b5f866a9ca1b6bd64fa5577: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/c88b3b1eb6d7d4b7b386ac6fead82c5b1ffb6e8ec7f40fd4961721b58a19ea6a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/a4b02bd5709d2ecf0d97b55b5fa5ec6bb61ba7325e21a5fd662527e0c97e1b01: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/50eda2e7c5db3a81f2dd83dbf4c7076d19ef9dbdcecf7338960f19c876ea013a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/fe0b99ab0c9407633a96ee5ac25e2ac5505b4dabc597741b12aeea0653feacc5: Win.Packed.Generic-9795616-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/b85c4824afa17d5b2d2f075be00fd90b3a1b79a1a197c44a34486a68678ff5a9: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/ded908c0f4dd81d08f81c7ce6f0287d124ec9a7c6590f4aa883616f63edfebc7: Win.Packed.njRAT-7646465-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/95bd0a9bacbba4c538c4dcb13de6c9054897b151fd9fe18e11047e3893c83819: Win.Dropper.Generic-6503446-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/4f5e43c27f8e38d37983771e3b9dc61a9bb253cea8412238bc4feef17f7568ef: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/efcad311b4ef1112d06734c21273276e043036cd846f48c1e71db6e6576879c3: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/070439ab8730f575894667f729b149c4e93d0c2cc8a39383c4f72cf11bbf78a8: Win.Trojan.RevengeRat-6344273-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/9f5323456a646a80ed6d6e750d4fdcac978a124b2175c1f9882ec3eec8debe42: Win.Malware.Filerepmalware-9874191-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/febaf8ae20e133e5b4fd503d7f5097bbabe0f8d4664a951a8630f2e929b916e5: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/b05570ed941da5ceeb87bcef18240090540b2c50f461f5792249f90ba99c4085: Andr.Malware.Agent-5802697-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/5215fa7103a812e71ac0542bc990060d5d4ea9d1e3ced1b195b422b6585f974f: Win.Dropper.Generic-6503446-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/b9ec260db4481181e2d75ee45be3e4fc97557024a3de639325c2e90f35a77142: Win.Dropper.Generic-6503446-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/56c2f9dab29619513c5d1b0cf43c78021c4ab7e5161f3ed524493977b60b2e8a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/7265329c7d297c83cd51f0aeef53fc6936edfad2fdf18389d2f52b23ea2bac74: Win.Malware.Bifrost-6998195-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/0b530db730a8d149cfc1cb09adfdd44bca606ba2ccf8bff978834e5355e75c7a: Win.Packed.Barys-7008062-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/4d4daf6915e77ca514e8834ea904b6e86ff6b293d9b469f71174405b386e21b9: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/3997892824075a9970230cb6e475c7e36d27686d8c6f37f83a3433e7ca72f851: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/4f20ffedfa30f2d91f98d4e17a10869305be4e5d87fc744c4cfc9593ded954ac: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/c77a066c9774e12d6a49589196463c1c96244225dde6b3a6f5af1b7dac34f46c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/e847d2d5f1f6b6ca6b574affd71ee7f92dd5ac88198714258b79f63c2a9cdbc4: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/db7c6c6ff312a474f8c23ebb08529cdb9863405ba2f8e9da397b31235f2a0d2a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/0411c097c4782cc546edefc9d61b8f1c5b2eb9dfd52b218d71b0379c069b073e: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/242d341e9e85dead14a2825e09c7e593f8726b1fb4d329222d1b5f9fe492d052: Win.Dropper.Generic-6503446-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/e1c54f2073066798dbf4d5528ddb48867935ed7ee3180f13a479ff57254fa1f2: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/1ade7bd06099af280d58303c74ecf505282e5682c39f9eb0cd1d56e96228c59b: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/6a05848f403d2f60ab798488f5176a79be7ca51e56dd551aa0fac8bbc8a5a46e: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/8456be962d01eac8e2f40d0a310d767cd5ec44b28d359030b1a04ecea974979a: Win.Dropper.Generic-6503446-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/01ab2c0cfb1e59c2664dceaed4dd0eb1549490c5670779b41a44a0f98e70a97a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/5127c48b8bf8414bde0e4f4801022e71b15066ec0175b476ea071c595ecf4b92: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/81b2dd1209938c7abbd7108bc064addd8ac5e5725743403215d76f0ed0cac0e9: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/93be83a309bdf97cf8674d5f38353ef5204b28318ae59b35c3e2c8058c82b8d1: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.23_360-APT-C-44_NAFox/41848104d1fbb1512fb0ed9b64cb0f22f1a5973b1b3609b64f22f34cec57048f: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.26.Drweb-ShadowPad_APT_backdoor_PlugX/2c4bab3df593ba1d36894e3d911de51d76972b6504d94be22d659cff1325822e: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.26.Drweb-ShadowPad_APT_backdoor_PlugX/b8a13c2a4e09e04487309ef10e4a8825d08e2cd4112846b3ebda17e013c97339: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.26.Drweb-ShadowPad_APT_backdoor_PlugX/fc117650688065deeb54e686f873359c2a56d23165567ab3f2a3b62498199fa9: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.26.Drweb-ShadowPad_APT_backdoor_PlugX/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.26.Drweb-ShadowPad_APT_backdoor_PlugX/4f51eb7829b97d4a5ba5cdc9d909f484a0e412340fc68d3cad0e1f2e8972640d: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.26.Drweb-ShadowPad_APT_backdoor_PlugX/9135cdfd09a08435d344cf4470335e6d5577e250c2f00017aa3ab7a9be3756b3: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.26.Drweb-ShadowPad_APT_backdoor_PlugX/ac6938e03f2a076152ee4ce23a39a0bfcd676e4f0b031574d442b6e2df532646: Win.Trojan.Shadowpad-10010830-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.26.Drweb-ShadowPad_APT_backdoor_PlugX/3ff98ed63e3612e56be10e0c22b26fc1069f85852ea1c0b306e4c6a8447c546a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.26.Drweb-ShadowPad_APT_backdoor_PlugX/8510fc293227ea7b7d4b20073302e015b616aa8af90d30549b5b118034036111: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.26.Drweb-ShadowPad_APT_backdoor_PlugX/32e95d80f96dae768a82305be974202f1ac8fcbcb985e3543f29797396454bd1: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.10.26.Drweb-ShadowPad_APT_backdoor_PlugX/c59509018bbbe5482452a205513a2eb5d86004369309818ece7eba7a462ef854: Win.Trojan.Shadowpad-10010830-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/packed-refs: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/config: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/objects/pack/pack-645c96329885bbf8c4d693a03fcbe23df4b700ab.idx: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/objects/pack/pack-645c96329885bbf8c4d693a03fcbe23df4b700ab.pack: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/HEAD: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/refs/remotes/origin/HEAD: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/refs/heads/master: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/index: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/logs/HEAD: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/logs/refs/remotes/origin/HEAD: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/logs/refs/heads/master: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/info/exclude: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/description: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/hooks/pre-push.sample: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/hooks/push-to-checkout.sample: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/hooks/prepare-commit-msg.sample: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/hooks/applypatch-msg.sample: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/hooks/pre-commit.sample: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/hooks/fsmonitor-watchman.sample: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/hooks/pre-rebase.sample: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/hooks/pre-applypatch.sample: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/hooks/pre-receive.sample: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/hooks/commit-msg.sample: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/hooks/post-update.sample: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/hooks/pre-merge-commit.sample: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/.git/hooks/update.sample: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_CISA_AA20-352A_APT_Gov_Infrastructure/ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6: Win.Countermeasure.Sunburst-9809152-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_CISA_AA20-352A_APT_Gov_Infrastructure/b820e8a2057112d0ed73bd7995201dbed79a79e13c79d4bdad81a22f12387e07: Win.Dropper.Teardrop-9808996-4 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_CISA_AA20-352A_APT_Gov_Infrastructure/32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77: Win.Countermeasure.Sunburst-9809152-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_CISA_AA20-352A_APT_Gov_Infrastructure/c15abaf51e78ca56c0376522d699c978217bf041a3bd3c71d09193efa5717c71: Win.Countermeasure.SUPERNOVA-9808999-1 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_CISA_AA20-352A_APT_Gov_Infrastructure/019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134: Win.Countermeasure.Sunburst-9809152-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_CISA_AA20-352A_APT_Gov_Infrastructure/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_CISA_AA20-352A_APT_Gov_Infrastructure/6e4050c6a2d2e5e49606d96dd2922da480f2e0c70082cc7e54449a7dc0d20f8d: Win.Dropper.Teardrop-9808996-4 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_CISA_AA20-352A_APT_Gov_Infrastructure/a25cadd48d70f6ea0c4a241d99c5241269e6faccb4054e62d16784640f8e53bc: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_CISA_AA20-352A_APT_Gov_Infrastructure/0f5d7e6dfdd62c83eb096ba193b5ae394001bac036745495674156ead6557589: Win.Countermeasure.Sunburst-9809152-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_CISA_AA20-352A_APT_Gov_Infrastructure/d3c6785e18fba3749fb785bc313cf8346182f532c59172b69adfb31b96a5d0af: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Morphisec-Jupiter_Infostealer/f16630378ba5cd07f2e131f3afa483c6f722406702d9201450c3be17f8b1081e: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Morphisec-Jupiter_Infostealer/06cc1870c2d26b38b13a8dc2e59a302a5454c61e756aee37cbf794fb51af0ba3: Win.Trojan.Solarmarker-9832983-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Morphisec-Jupiter_Infostealer/868cdb28bca314a991a5ae9e16afaa0b2b96daa42f4ae263230b2b8a7aed1d3c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Morphisec-Jupiter_Infostealer/056c470dc745e56cbbe069d3c43a557f697e7f2afbd83c14471a1bdbf013e4af: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Morphisec-Jupiter_Infostealer/9d63af1cb88bb6b65e1d6c1f4467a728aeff1b8d07c2ef8c9b2e2f40b696a154: Win.Trojan.Jupiter-9858780-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Morphisec-Jupiter_Infostealer/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Morphisec-Jupiter_Infostealer/30e527e45f50d2ba82865c5679a6fa998ee0a1755361ab01673950810d071c85: Win.Trojan.Jupiter-9858780-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Morphisec-Jupiter_Infostealer/c23957924eb604f3844f9e9c6c569c0a3aa6f60edc4ba4ecd42a68eaee3b8e02: Win.Trojan.Jupiter-9858780-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Morphisec-Jupiter_Infostealer/33d7f3bb788ea4bf9fffba9e528ec62ad38f02d03e63f78e427238f90a9ac75d: Win.Trojan.Jupiter-9858780-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Morphisec-Jupiter_Infostealer/a1a9137dea275aa805e5640f6450366dbf6e10be066e5c12c34904e45e469c4c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Morphisec-Jupiter_Infostealer/3147cd2ee6938d50d2cdc7e157ad1125de2229bb35454cbde502746d6a36154d: Win.Trojan.Jupiter-9858780-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Morphisec-Jupiter_Infostealer/5597e6fe7256b243d62cc7d1fd0da4397f9840d8609ab767850c1a4e5d50a431: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Morphisec-Jupiter_Infostealer/ce486097ad2491aba8b1c120f6d0aa23eaf59cf698b57d2113faab696d03c601: Win.Trojan.Jupiter-9858780-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Morphisec-Jupiter_Infostealer/fe2d39309d8bf3d85cacc2308bd36d149bc27f59f95c02b77a1f9f897291a933: Win.Trojan.Jupiter-9858780-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_Morphisec-Jupiter_Infostealer/5fafaa6539a7360f5a5ccf5c46b5c25e555fc7e11ada655ebd49588ca91b9fcc: Win.Trojan.Solarmarker-9832983-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_ESET-ModPipe_POS_Hospitality-Sector/e8cd98f1abade45d4c608aadec25b529ede12b807bc5d446848991bd89f18cdc: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_ESET-ModPipe_POS_Hospitality-Sector/843ee9fd681cb88c6da02c51005ffd9b60b05bd0a50da1b5d47d90b31a313ca1: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_ESET-ModPipe_POS_Hospitality-Sector/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_ESET-ModPipe_POS_Hospitality-Sector/85f9d294b74bcd94711a4e91af22ffee1410a20ac11872b9a8d89bac05e12e89: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_ESET-ModPipe_POS_Hospitality-Sector/aa4be907464d9f8a9d744491b11375fad20d300f459ea26fc8be10905af53660: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.12_ESET-ModPipe_POS_Hospitality-Sector/daf1eccb75fc022d0cdfa644a1cb7ea53dac858da66cbcf8196cc1a147eb036c: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.17_Symantec-Japan_Sophisticated/3f5b623222c755d59052fab9e096c9d2b9a47d06b3a5de62fb9a66750af4efc4: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.17_Symantec-Japan_Sophisticated/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/aa868d007c4dfd825104faafb3798b9ab745b29794a57365bef41ec3f6019eea: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/40cc5933e608f7a2a5c13af1066257c9e41528bb85e434e2bc3d1f4802dec24d: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/2ee74ae5b202c8aab288ca167c630e9ee3569240958e984474b960cd560bbe95: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/408c11caf548048732ac21e88a54e80d47a05b9619c1c16b65fa850e0172f428: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/97ea91fb673f4994da491433751c4fca011993ba10191f09c70ca6c8d2b4f944: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/8cb1f713761a6b31c9c25dd2c7ae11e575a634c9f052cfd598ada35a61783230: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/ba153e449ee926c019b548997c32d0579b9c6f350b1590a025d5d9a216ddbffd: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/a9a8b0aa5f137e7353db62dc1609da3c709ca30287a5605c73aafaf4968d1e8d: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/034d8ec8d510033c387bb87cac35d240b7b8daa3b5167732118c755c5e6c1d48: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/6287fc617ff6881169990e6b877c16d8ca3c199f7e453241a0b18a7907c67ab0: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/1b0d2d096c5f7fff02a5a4ce623b71b862f63e306a0760722f710c425b4e16ec: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/306238a63896fa8b79b4c9a6d25fd906bb9e4919bc698608ab970677d15b0694: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/072c103759968253b7b25837b43eec546c625ae9c04edd52321d848cf6078b87: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/aed7ab5d0de01c3724c917c034e26a5e9eed3f7fbf4082b024576a41725d66cf: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/5900abb869c61928f0ef931d6f9d8b62183b2bab9a69b0ef886551005d6c9622: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/d217288a046e2739159d0081608a44c2e79d41de12c57ebe88a8591693fa15d5: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/9a0ee2430f7c77942d544dad6787ca8a94470f6555f1cb08baa9d099c92f8447: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/3fda0a5da313886b0339eee65c69c779ed620b303ba079ee0864ca4a1496b0b4: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/27c6341554a04bdc792ffbc5cda26511cbcfcc66334fb6ebbc24a14969b4e498: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/0750c7cdc538d79d9ffed0d37f5d9a083902b49ec02d75ee88028db9f3668b59: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/06ed3daccfbb30c68a33583a761fc20cc3e21adb8dd64a42d922e6da2a01c0dd: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/766917fe9b543bf218bd824d55967d63f94b28456f1d4919bc990d8262dc608d: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/add9f9dca97c3b6d52efe7d48ecd3d349a70411eaa3d4aeff6e6215b77f42b90: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/66c86f29afb1152aad8e426ebb6569ad03ce7b69ea3c8a5cc40011c2a3ab973b: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/ea4792353e0f97968e7c69ffba81c144f22f54382af4e61a1347edd0ae15830f: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/ce8ad96819c814dd1735e621639a8845ae7132375879cc5b5d5f6877cb909a68: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/9de287f9af63f02c51c69d9c8480fee2bd4d4bd3c818f2ba81324b1f8ce495c0: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.11.26_Checkpoint-Bandook/41ccf6de0d51bd29d35be12ae24f04b2f88ec2b202b239424f90c666d25473e8: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-MAR-10301706_North_Korean_RAT_VIVACIOUSGIFT/a917c1cc198cf36c0f2f6c24652e5c2e94e28d963b128d54f00144d216b2d118: Win.Trojan.Agent-6971031-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-MAR-10301706_North_Korean_RAT_VIVACIOUSGIFT/9a776b895e93926e2a758c09e341accb9333edc1243d216a5e53f47c6043c852: Win.Trojan.Agent-6971031-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-MAR-10301706_North_Korean_RAT_VIVACIOUSGIFT/f3ca8f15ca582dd486bd78fd57c2f4d7b958163542561606bebd250c827022de: Win.Trojan.Agent-6971031-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-MAR-10301706_North_Korean_RAT_VIVACIOUSGIFT/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-MAR-10301706_North_Korean_RAT_VIVACIOUSGIFT/8cad61422d032119219f465331308c5a61e21c9a3a431b88e1f8b25129b7e2a1: Win.Trojan.Agent-6971031-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-MAR-10301706_North_Korean_RAT_VIVACIOUSGIFT/aca598e2c619424077ef8043cb4284729045d296ce95414c83ed70985c892c83: Win.Trojan.Agent-6971031-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.08.26_CISA-MAR-10301706_North_Korean_RAT_VIVACIOUSGIFT/70b494b0a8fdf054926829dcb3235fc7bd0346b6a19faf2a57891c71043b3b38: Win.Malware.VivaciousGift-9740139-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ESET-Operation_SignSight_Southeast_Asia/f659b269fbe4128588f7a2fa4d6022cc74e508d28eee05c5aff26cc23b7bd1a5: Win.Trojan.Smanager-9822863-2 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ESET-Operation_SignSight_Southeast_Asia/b0fd1ff7f5d45be89fffc04937f352754c6055e1f4ca26a9257169ce168569ef: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ESET-Operation_SignSight_Southeast_Asia/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ESET-Operation_SignSight_Southeast_Asia/c42000f2f6526c782757aa43246b4c1a12d366610721df6b6112305064d48a32: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ESET-Operation_SignSight_Southeast_Asia/97a5fe1d2174e9d34cee8c1d6751bf01f99d8f40b1ae0bce205b8f2f0483225c: Win.Trojan.Smanager-9822863-2 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.12.17_ESET-Operation_SignSight_Southeast_Asia/6be34df727fcb79123e4e8f472ad24b698d83395fb17d4db019e9976f485cd83: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.29_Symantec-Palmerworm_Espionage_Gang/28ca0c218e14041b9f32a0b9a17d6ee5804e4ff52e9ef228a1f0f8b00ba24c11: Win.Packer.Tiggre-9818998-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.29_Symantec-Palmerworm_Espionage_Gang/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.29_Symantec-Palmerworm_Espionage_Gang/6d40c289a154142cdd5298e345bcea30b13f26b9eddfe2d9634e71e1fb935fbe: Win.Trojan.Zegost-9819000-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.29_Symantec-Palmerworm_Espionage_Gang/eed2ab9f2c09e47c7689204ad7f91e5aef3cb25a41ea524004a48bb7dc59f969: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.29_Symantec-Palmerworm_Espionage_Gang/9e3ecda0f8e23116e1e8f2853cf07837dd5bc0e2e4a70d927b37cfe4f6e69431: Win.Trojan.Farfli-9818999-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.29_Symantec-Palmerworm_Espionage_Gang/a7f3b8afb963528b4821b6151d259cf05ae970bc4400b805f7713bd8a0902a42: Win.Tool.PortMapper-9818997-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.09.29_Symantec-Palmerworm_Espionage_Gang/35bd3c96abbf9e4da9f7a4433d72f90bfe230e3e897a7aaf6f3d54e9ff66a05a: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.23_FBI-FLASH-AC-000129-TT/37aa87d3408dc3e211d63a3bb38c726787c47c06a19e77f6a14861a91c2dcb35: Win.Malware.Agent-9378479-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.23_FBI-FLASH-AC-000129-TT/README.md: OK
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.23_FBI-FLASH-AC-000129-TT/1d973d05dee26f74ae352325da741928af4327f7a6be27cdec085a31fbea8100: Win.Malware.Agent-9377098-0 FOUND
+/home/roxy/Documents/scan example/lumma/Malware-Feed/2020.07.23_FBI-FLASH-AC-000129-TT/a1aa0684813cfe9d7ed5c491c8ab132e5583b4fd02187fdae8aa4d934d933f29: Win.Malware.Agent-9378155-0 FOUND
+/home/roxy/Documents/scan example/lumma/lumma.exe: Win.Packed.Stealerc-10017072-0 FOUND
+/home/roxy/Documents/scan example/2.MOV: OK
+/home/roxy/Documents/scan example/stealer/d198da5624dee1ce2f38222ad1693bdeeec82495031fa8ca53ef3f28efec384b.exe: OK
+/home/roxy/Documents/scan example/history.txt: OK
+/home/roxy/Documents/scan example/7432d526-8d10-4d86-8c81-4a47cfbdf39e.webp: OK
+/home/roxy/Documents/scan example/4.MOV: OK
+/home/roxy/Documents/scan example/aa.zip: OK
+/home/roxy/Documents/scan example/aa/44e022223df79fb2724a328b1390e2724ecaf8721328c4cf36e03da2a67c4a95.exe: OK
+/home/roxy/Documents/scan example/a68916a6-5a66-4a9b-a9f2-89305660522c.webp: OK
+/home/roxy/Documents/scan example/stealer.zip: OK
+/home/roxy/Documents/scan example/cobalt/8bfed2fc726e8d292fb7fd8238409aa096b8a17a6030c9aca6995bcbcf6b7a47.exe: Win.Trojan.CobaltStrike-7899872-1 FOUND
+/home/roxy/Documents/scan example/cobalt.zip: OK
+/home/roxy/Documents/test.py: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8682251
+Engine version: 0.103.9
+Scanned directories: 71
+Scanned files: 715
+Infected files: 289
+Data scanned: 1265.00 MB
+Data read: 6855.87 MB (ratio 0.18:1)
+Time: 818.367 sec (13 m 38 s)
+Start Date: 2024:01:07 22:23:11
+End Date:   2024:01:07 22:36:49
