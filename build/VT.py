@@ -92,7 +92,8 @@ button_1 = Button(
     image=button_image_1,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: on_button_click("Main.py"),
+    command=lambda: on_button_click("/home/roxy/PycharmProjects/Mobile-Pi/build/Main.py"),
+    #command=lambda: on_button_click("/home/mopi/Mobile-Pi/build/Main.py"),
     relief="flat"
 )
 button_1.place(
@@ -109,7 +110,8 @@ button_2 = Button(
     image=button_image_2,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: on_button_click3("VT_scan.py"),
+    command=lambda: on_button_click3("/home/roxy/PycharmProjects/Mobile-Pi/build/VT_scan.py"),
+    #command=lambda: on_button_click3("/home/mopi/Mobile-Pi/build/VT_scan.py"),
     relief="flat"
 )
 button_2.place(
