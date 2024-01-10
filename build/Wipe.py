@@ -5,6 +5,7 @@ import sys
 
 # OUTPUT_PATH = Path(__file__).parent
 # ASSETS_PATH = OUTPUT_PATH / Path(r"assets/frame3")
+#ok
 
 ABSOLUTE_PATH = Path("/home/roxy/PycharmProjects/Mobile-Pi/build/")
 #ABSOLUTE_PATH = Path("~/Mobile-Pi/build/")
