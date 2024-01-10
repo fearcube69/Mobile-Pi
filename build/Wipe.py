@@ -1,51 +1,66 @@
 from pathlib import Path
 import subprocess
-from tkinter import Tk, Canvas, Button, PhotoImage, Text, simpledialog, END
+from tkinter import Tk, Canvas, Button, PhotoImage, Text, END, Entry
 import sys
 
 # OUTPUT_PATH = Path(__file__).parent
 # ASSETS_PATH = OUTPUT_PATH / Path(r"assets/frame3")
 
-#ABSOLUTE_PATH = Path("/home/roxy/PycharmProjects/Mobile-Pi/build/")
-ABSOLUTE_PATH = Path("~/Mobile-Pi/build/")
+ABSOLUTE_PATH = Path("/home/roxy/PycharmProjects/Mobile-Pi/build/")
+#ABSOLUTE_PATH = Path("~/Mobile-Pi/build/")
 ASSETS_PATH = ABSOLUTE_PATH / Path("assets/frame3")
 
 def on_button_click(file_path):
     subprocess.Popen(["python3", file_path])
     sys.exit()
 
-
 def on_button_click3(file_path):
-    try:
-        result = subprocess.check_output(["bash", file_path], universal_newlines=True)
-        text_widget.delete(1.0, END)
-        text_widget.insert(END, result)
-    except subprocess.CalledProcessError as e:
-        text_widget.delete(1.0, END)
-        text_widget.insert(END, f"Error: {e.output}")
+    # Create a subprocess with pipes for both stdin and stdout
+    process = subprocess.Popen(["bash", file_path],
+                               stdin=subprocess.PIPE,
+                               stdout=subprocess.PIPE,
+                               stderr=subprocess.PIPE,
+                               universal_newlines=True)
 
+    # Disable the text_widget for direct input
+    text_widget.config(state="disabled")
+
+    try:
+        while True:
+            # Read output from the subprocess
+            output = process.stdout.readline()
+            if output == '' and process.poll() is not None:
+                break
+
+            # Display the output in the text_widget
+            text_widget.config(state="normal")
+            text_widget.insert(END, output)
+            text_widget.yview(END)  # Autoscroll to the bottom
+            text_widget.config(state="disabled")
+            text_widget.update()
+
+        # Wait for the subprocess to complete
+        process.wait()
+
+        # Capture and display any errors
+        error_output = process.stderr.read()
+        if error_output:
+            text_widget.config(state="normal")
+            text_widget.insert(END, f"Error: {error_output}")
+            text_widget.yview(END)  # Autoscroll to the bottom
+            text_widget.config(state="disabled")
+    finally:
+        # Enable the text_widget for input
+        text_widget.config(state="normal")
 
 def redirect_stdout_to_text_widget():
     sys.stdout = text_widget
 
-
 def restore_stdout():
     sys.stdout = sys.__stdout__
 
-
-def get_password():
-    password = simpledialog.askstring("Password", "Enter password:")
-    return password
-
-
-def check_password(password):
-    stored_password = "your_stored_password"
-    return password.strip() == stored_password
-
-
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
-
 
 window = Tk()
 
@@ -106,7 +121,7 @@ button_2 = Button(
     image=button_image_2,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: [redirect_stdout_to_text_widget(), on_button_click3("wipe.sh"), restore_stdout()],
+    command=lambda: on_button_click3("wipe.sh"),
     relief="flat"
 )
 button_2.place(
@@ -126,6 +141,27 @@ text_widget = Text(
     relief="flat"
 )
 text_widget.place(x=252.0, y=144.0, width=520.0, height=250.0)  # Adjusted position and size
+
+# Entry widget for user input
+input_entry = Entry(
+    window,
+    font=("Inter", 10),
+    bd=0,
+    highlightthickness=0,
+    relief="flat"
+)
+input_entry.place(x=252.0, y=400.0, width=520.0, height=30.0)  # Adjusted position and size
+
+def on_input_enter(event):
+    user_input = input_entry.get().strip()
+    if user_input:
+        text_widget.config(state="normal")
+        text_widget.insert(END, f"\nUser: {user_input}\n")
+        input_entry.delete(0, 'end')  # Clear the input entry
+        text_widget.config(state="disabled")
+
+# Bind the Enter key to the input entry
+input_entry.bind('<Return>', on_input_enter)
 
 window.resizable(False, False)
 window.mainloop()

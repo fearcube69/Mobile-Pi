@@ -18,9 +18,8 @@ for name in "${directory_names[@]}"; do
    echo "$name"
 done
 
-echo "$name"
-
-target_mount_point="/media/$current_user/$name"
+# Select the last directory name
+target_mount_point="/media/$current_user/${directory_names[-1]}"
 
 echo "$target_mount_point"
 
@@ -34,21 +33,18 @@ main() {
 
 main
 
-# Define the mount point of the USB flash drive
-#mount_point="/media/roxy/B1D2-3CB5"
-
 # Define the device identifier of the USB flash drive
 device_identifier=$(df "$target_mount_point" | tail -n1 | awk '{print $1}')
 
-# Unmount the USB flash drive
-sudo umount "$device_identifier"
+# Unmount the USB flash drive with sudo using password from pass.txt
+{ echo "$(cat pass.txt)"; echo "echo '';"; } | sudo -S umount "$device_identifier"
 
-# Format the USB flash drive with the FAT32 file system
-sudo mkfs.vfat "$device_identifier"
+# Format the USB flash drive with the FAT32 file system with sudo using password from pass.txt
+{ echo "$(cat pass.txt)"; echo "echo '';"; } | sudo -S mkfs.vfat "$device_identifier"
 
 # Check the exit status of the mkfs command
 if [ $? -eq 0 ]; then
- echo "Formatting successful."
+    echo "Formatting successful."
 else
- echo "Formatting failed."
+    echo "Formatting failed."
 fi
