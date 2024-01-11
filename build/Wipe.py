@@ -1,6 +1,6 @@
 from pathlib import Path
 import subprocess
-from tkinter import Tk, Canvas, Button, PhotoImage, Text, END, Entry
+from tkinter import Tk, Canvas, Button, PhotoImage, Text, END, Entry, messagebox
 import sys
 
 # OUTPUT_PATH = Path(__file__).parent
@@ -15,7 +15,16 @@ def on_button_click(file_path):
     subprocess.Popen(["python3", file_path])
     sys.exit()
 
+def show_warning():
+
+   return messagebox.askokcancel("Warning", "This operation cannot be undone. Are you sure?")
+
 def on_button_click3(file_path):
+
+    if not messagebox.askokcancel("Warning", "This operation cannot be undone. Are you sure?"):
+        print("Operation has been cancelled")
+        return
+
     # Create a subprocess with pipes for both stdin and stdout
     process = subprocess.Popen(["bash", file_path],
                                stdin=subprocess.PIPE,

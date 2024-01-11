@@ -59,8 +59,8 @@ class VirusTotalScanner:
 
        self.status_label.config(text='Waiting for scan completion...')
 
-       # Countdown timer
-       for i in range(60, -1, -1):
+       # Countdown timer, 45 second is the best
+       for i in range(45, -1, -1):
            self.status_label.config(text=f'Waiting for scan completion... {i} seconds remaining')
            self.root.update()
            time.sleep(1)
